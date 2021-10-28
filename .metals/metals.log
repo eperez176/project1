@@ -5056,3 +5056,311 @@ Oct 28, 2021 9:45:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 2669
 [0m2021.10.28 13:24:15 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
 [0m2021.10.28 13:24:19 INFO  shutting down Metals[0m
+[0m2021.10.28 13:49:02 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\18322\revature\projects\project1' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.28 13:49:03 INFO  time: initialize in 0.97s[0m
+[0m2021.10.28 13:49:04 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.28 13:49:04 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 13:49:05 INFO  skipping build import with status 'Failed'[0m
+[0m2021.10.28 13:49:11 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.28 13:49:15 INFO  time: code lens generation in 8.38s[0m
+[0m2021.10.28 14:36:40 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 14:37:53 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 14:38:24 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 14:40:45 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 14:41:00 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 14:41:26 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 14:42:19 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 14:43:03 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 14:43:23 WARN  no build target for: C:\Users\18322\revature\projects\project0\src\main\scala\login\login.scala[0m
+Oct 28, 2021 2:44:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 367
+[0m2021.10.28 14:44:27 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+Oct 28, 2021 2:44:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 28, 2021 2:44:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 28, 2021 2:44:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 28, 2021 2:44:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 28, 2021 2:44:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 28, 2021 2:44:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 28, 2021 2:44:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 28, 2021 2:44:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 28, 2021 2:44:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 28, 2021 2:44:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 28, 2021 2:44:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.10.28 14:45:54 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 14:46:05 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 14:46:47 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+Oct 28, 2021 2:46:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 680
+Oct 28, 2021 2:47:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 709
+Oct 28, 2021 3:05:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 724
+Oct 28, 2021 3:06:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 741
+Oct 28, 2021 3:06:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 748
+[0m2021.10.28 15:07:08 WARN  no build target for: C:\Users\18322\revature\projects\project0\src\main\scala\login\newLogin.scala[0m
+Oct 28, 2021 3:07:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 777
+Oct 28, 2021 3:07:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 783
+[0m2021.10.28 15:08:21 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:08:29 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:08:51 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:09:04 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:09:13 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:09:32 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:10:35 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:11:51 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:17:44 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+Oct 28, 2021 3:17:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1100
+Oct 28, 2021 3:17:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1114
+[0m2021.10.28 15:18:36 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:18:54 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:19:09 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:19:18 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:19:53 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:20:06 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:20:20 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:21:09 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:21:19 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:21:49 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:22:21 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+[0m2021.10.28 15:22:33 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+Oct 28, 2021 3:30:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1603
+[0m2021.10.28 15:30:49 WARN  no build target for: C:\Users\18322\revature\projects\project0\src\main\scala\login\DB.scala[0m
+[0m2021.10.28 15:31:10 WARN  no build target for: C:\Users\18322\revature\projects\project0\src\main\scala\login\DB.scala[0m
+Oct 28, 2021 3:35:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1660
+[0m2021.10.28 15:35:38 WARN  no build target for: C:\Users\18322\revature\projects\project0\src\main\scala\example\ziptomongo.scala[0m
+Oct 28, 2021 3:35:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1697
+Oct 28, 2021 3:35:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1704
+Oct 28, 2021 3:35:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1711
+Oct 28, 2021 3:36:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1765
+Oct 28, 2021 3:36:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1771
+Oct 28, 2021 3:36:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1778
+Oct 28, 2021 3:36:32 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Oct 28, 2021 3:36:33 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Oct 28, 2021 3:36:34 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+[0m2021.10.28 15:36:34 INFO  time: code lens generation in 1.6s[0m
+[0m2021.10.28 15:36:34 INFO  time: code lens generation in 1.04s[0m
+Oct 28, 2021 3:36:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1863
+Oct 28, 2021 3:36:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1870
+[0m2021.10.28 15:36:40 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+Oct 28, 2021 3:36:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1879
+Oct 28, 2021 3:37:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1894
+Oct 28, 2021 3:37:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1907
+Oct 28, 2021 3:37:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1930
+[0m2021.10.28 15:37:37 WARN  no build target for: C:\Users\18322\revature\projects\project1\src\main\scala\main.scala[0m
+Oct 28, 2021 3:38:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1953
+[0m2021.10.28 15:44:19 WARN  no build target for: C:\Users\18322\revature\projects\project1\build.sbt[0m
+[0m2021.10.28 15:45:25 WARN  no build target for: C:\Users\18322\revature\projects\project1\build.sbt[0m
+[0m2021.10.28 15:45:28 INFO  running 'C:\Users\18322\Downloads\null\Coursier\cache\jvm\adopt@1.8.0-292\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\18322\AppData\Local\Temp\metals4113250336179863666\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.28 15:45:32 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 1.8.0_292)[0m
+[0m2021.10.28 15:45:35 INFO  [info] loading settings for project project1-build-build from metals.sbt ...[0m
+[0m2021.10.28 15:45:37 INFO  [info] loading project definition from C:\Users\18322\revature\projects\project1\project\project[0m
+[0m2021.10.28 15:45:38 INFO  [info] loading settings for project project1-build from metals.sbt ...[0m
+[0m2021.10.28 15:45:38 INFO  [info] loading project definition from C:\Users\18322\revature\projects\project1\project[0m
+[0m2021.10.28 15:45:48 INFO  [success] Generated .bloop\project1-build.json[0m
+[0m2021.10.28 15:45:48 INFO  [success] Total time: 10 s, completed Oct 28, 2021 3:45:49 PM[0m
+[0m2021.10.28 15:45:55 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.10.28 15:45:55 INFO  [info] set current project to project1 (in build file:/C:/Users/18322/revature/projects/project1/)[0m
+[0m2021.10.28 15:46:25 INFO  [success] Generated .bloop\root.json[0m
+[0m2021.10.28 15:46:25 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2021.10.28 15:46:25 INFO  [success] Total time: 30 s, completed Oct 28, 2021 3:46:26 PM[0m
+[0m2021.10.28 15:46:26 INFO  time: ran 'sbt bloopInstall' in 57s[0m
+[0m2021.10.28 15:46:26 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 18714'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\18322\revature\projects\project1\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\18322\revature\projects\project1\.bloop\root.json'
+[0m[32m[D][0m Loading project from 'c:\Users\18322\revature\projects\project1\.bloop\root-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.6.
+[0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.19.0\jline-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.6\scala-compiler-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.6\scala-reflect-2.13.6.jar
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Missing analysis file for project 'root'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:18714...
+The server is listening for incoming connections at tcp://127.0.0.1:18714...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.28 15:46:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18322\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.28 15:46:45 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22638'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22638...
+The server is listening for incoming connections at tcp://127.0.0.1:22638...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.28 15:46:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\18322\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.28 15:46:47 INFO  time: Connected to build server in 20s[0m
+[0m2021.10.28 15:46:47 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.28 15:46:47 INFO  time: Imported build in 0.38s[0m
+[0m2021.10.28 15:46:58 INFO  time: indexed workspace in 11s[0m
+[0m2021.10.28 15:46:58 WARN  no build target for: C:\Users\18322\revature\projects\project0\src\main\scala\login\newLogin.scala[0m
+[0m2021.10.28 15:46:58 WARN  no build target for: C:\Users\18322\revature\projects\project0\src\main\scala\login\DB.scala[0m
+[0m2021.10.28 15:46:58 WARN  no build target for: C:\Users\18322\revature\projects\project0\src\main\scala\example\ziptomongo.scala[0m
+[0m2021.10.28 15:46:58 WARN  no build target for: C:\Users\18322\revature\projects\project0\src\main\scala\login\login.scala[0m
+[0m2021.10.28 15:47:00 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+[0m2021.10.28 15:47:17 INFO  compiling project1-build (1 scala source)[0m
+[0m2021.10.28 15:47:17 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.28 15:47:21 INFO  time: code lens generation in 9.44s[0m
+[0m2021.10.28 15:47:23 INFO  time: code lens generation in 23s[0m
+[0m2021.10.28 15:47:31 INFO  time: compiled root in 13s[0m
+[0m2021.10.28 15:47:36 INFO  time: compiled project1-build in 18s[0m
+Oct 28, 2021 3:48:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2026
+[0m2021.10.28 15:48:43 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.28 15:48:44 INFO  time: compiled root in 1.06s[0m
+Oct 28, 2021 3:48:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2057
+Oct 28, 2021 3:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2069
+Oct 28, 2021 3:49:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2083
+Oct 28, 2021 3:49:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2084
+Oct 28, 2021 3:49:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2086
+Oct 28, 2021 3:49:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2087
+Oct 28, 2021 3:49:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2089
+[0m2021.10.28 15:49:14 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.28 15:49:14 INFO  time: compiled root in 0.98s[0m
+[0m2021.10.28 15:49:17 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.28 15:49:17 INFO  time: compiled root in 0.76s[0m
+[0m2021.10.28 15:49:20 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.28 15:49:25 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 15:49:25 INFO  time: compiled root in 4.91s[0m
+[0m2021.10.28 15:49:41 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 15:49:43 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 15:49:43 INFO  time: compiled root in 2.35s[0m
+Oct 28, 2021 4:00:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2290
+[0m2021.10.28 16:00:56 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:00:58 INFO  time: compiled root in 2.05s[0m
+[0m2021.10.28 16:01:11 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:01:11 INFO  time: compiled root in 0.61s[0m
+[0m2021.10.28 16:01:18 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:01:18 INFO  time: compiled root in 0.9s[0m
+[0m2021.10.28 16:01:22 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:01:22 INFO  time: compiled root in 0.58s[0m
+[0m2021.10.28 16:01:43 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:01:46 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:01:46 INFO  time: compiled root in 2.6s[0m
+[0m2021.10.28 16:02:22 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:02:22 INFO  time: compiled root in 0.33s[0m
+[0m2021.10.28 16:02:41 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:02:41 INFO  time: compiled root in 0.32s[0m
+Oct 28, 2021 4:02:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2503
+[0m2021.10.28 16:02:52 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:02:52 INFO  time: compiled root in 0.4s[0m
+[0m2021.10.28 16:03:05 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:03:05 INFO  time: compiled root in 0.42s[0m
+[0m2021.10.28 16:03:38 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:03:41 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:03:41 INFO  time: compiled root in 3.42s[0m
+[0m2021.10.28 16:04:09 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:04:11 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:04:11 INFO  time: compiled root in 2.01s[0m
+[0m2021.10.28 16:04:28 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:04:30 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:04:30 INFO  time: compiled root in 2.63s[0m
+[0m2021.10.28 16:05:03 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:05:05 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:05:05 INFO  time: compiled root in 1.64s[0m
+[0m2021.10.28 16:05:16 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:05:18 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:05:18 INFO  time: compiled root in 2.23s[0m
+[0m2021.10.28 16:05:22 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:05:22 INFO  time: compiled root in 0.47s[0m
+[0m2021.10.28 16:05:46 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:05:48 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:05:48 INFO  time: compiled root in 1.42s[0m
+[0m2021.10.28 16:06:36 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:06:39 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:06:39 INFO  time: compiled root in 2.92s[0m
+[0m2021.10.28 16:06:48 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:06:51 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:06:51 INFO  time: compiled root in 3.09s[0m
+[0m2021.10.28 16:07:12 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:07:14 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:07:14 INFO  time: compiled root in 1.93s[0m
+[0m2021.10.28 16:07:17 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:07:18 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:07:18 INFO  time: compiled root in 1.44s[0m
+[0m2021.10.28 16:07:41 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:07:44 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:07:44 INFO  time: compiled root in 2.65s[0m
+[0m2021.10.28 16:07:55 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:07:55 INFO  time: compiled root in 0.54s[0m
+[0m2021.10.28 16:08:13 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:08:15 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:08:15 INFO  time: compiled root in 2.29s[0m
+[0m2021.10.28 16:08:41 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:08:41 INFO  time: compiled root in 0.26s[0m
+[0m2021.10.28 16:09:03 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:09:04 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:09:04 INFO  time: compiled root in 1.31s[0m
+[0m2021.10.28 16:09:49 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:09:51 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:09:51 INFO  time: compiled root in 1.51s[0m
+[0m2021.10.28 16:10:29 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:10:31 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:10:31 INFO  time: compiled root in 1.97s[0m
+[0m2021.10.28 16:10:48 INFO  compiling root (1 scala source)[0m
+[0m2021.10.28 16:10:49 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.28 16:10:49 INFO  time: compiled root in 1.89s[0m
