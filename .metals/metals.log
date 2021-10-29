@@ -5371,3 +5371,1168 @@ No more data in the client stdin, exiting...
 No more data in the client stdin, exiting...
 No more data in the server stdin, exiting...
 No more data in the server stdin, exiting...
+[0m2021.10.29 09:57:56 INFO  Started: Metals version 0.10.8 in workspace 'C:\Users\eperez176\revature\project1' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.29 09:57:57 INFO  time: initialize in 0.75s[0m
+[0m2021.10.29 09:57:57 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 43158'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+error: The command bsp --protocol tcp --port 43158 returned with an error
+> No server running at 127.0.0.1:8212, let's fire one...
+> Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.10-8-8d1cbc4f...
+> Starting bloop server at 127.0.0.1:8212...
+> Attempting a connection to the server...
+> [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+> [0m[32m[D][0m Loading 2 projects from 'c:\Users\eperez176\revature\project1\.bloop'...
+> [0m[32m[D][0m Loading project from 'c:\Users\eperez176\revature\project1\.bloop\root.json'
+> [0m[32m[D][0m Loading project from 'c:\Users\eperez176\revature\project1\.bloop\root-test.json'
+> [0m[33m[W][0m Scala instance jar C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.6\scala-compiler-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.6\scala-compiler-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.6\scala-reflect-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.6\scala-reflect-2.13.6.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.19.0\jline-3.19.0.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.19.0\jline-3.19.0.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar doesn't exist!
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.6.
+> [0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+> [0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.19.0\jline-3.19.0.jar
+> [0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.6\scala-compiler-2.13.6.jar
+> [0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+> [0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.6\scala-reflect-2.13.6.jar
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.6.
+> [0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+> [0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.19.0\jline-3.19.0.jar
+> [0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.6\scala-compiler-2.13.6.jar
+> [0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+> [0m[32m[D][0m   => C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.6\scala-reflect-2.13.6.jar
+> bloop.data.Project$ProjectReadException: Failed to load project from c:\Users\eperez176\revature\project1\.bloop\root.json
+> 	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:193)
+> 	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+> 	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+> 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+> 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+> 	at java.lang.Thread.run(Unknown Source)
+> Caused by: java.nio.file.NoSuchFileException: C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+> 	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+> 	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+> 	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+> 	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(Unknown Source)
+> 	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(Unknown Source)
+> 	at sun.nio.fs.WindowsFileSystemProvider.readAttributes(Unknown Source)
+> 	at java.nio.file.Files.readAttributes(Unknown Source)
+> 	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+> 	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+> 	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+> 	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+> 	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+> 	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+> 	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+> 	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+> 	at bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+> 	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+> 	at bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+> 	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(Unknown Source)
+> 	at bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+> 	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:210)
+> 	at scala.Option.flatMap(Option.scala:271)
+> 	at bloop.data.Project$.fromConfig(Project.scala:205)
+> 	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:187)
+> 	... 8 more
+> [0m[32m[D][0m Elapsed: 196.0921 ms
+> [0m[31m[E][0m Failed to load project from c:\Users\eperez176\revature\project1\.bloop\root-test.json
+> [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from c:\Users\eperez176\revature\project1\.bloop\root-test.json
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:193)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+> [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+> [0m[36m[T][0m 	java.lang.Thread.run(Unknown Source)
+> [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: C:\Users\18322\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+> [0m[36m[T][0m 	sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+> [0m[36m[T][0m 	sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+> [0m[36m[T][0m 	sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+> [0m[36m[T][0m 	sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(Unknown Source)
+> [0m[36m[T][0m 	sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(Unknown Source)
+> [0m[36m[T][0m 	sun.nio.fs.WindowsFileSystemProvider.readAttributes(Unknown Source)
+> [0m[36m[T][0m 	java.nio.file.Files.readAttributes(Unknown Source)
+> [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+> [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+> [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+> [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+> [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+> [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	java.util.concurrent.ConcurrentHashMap.computeIfAbsent(Unknown Source)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:210)
+> [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+> [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:205)
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:187)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+> [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+> [0m[36m[T][0m 	java.lang.Thread.run(Unknown Source)
+error: The launcher failed to establish a bsp connection, aborting...
+[0m2021.10.29 09:58:38 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$1.run(BloopServers.scala:159)
+	at java.util.concurrent.Executors$RunnableAdapter.call(null)
+	at java.util.concurrent.FutureTask.run(null)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+[0m
+[0m2021.10.29 10:09:26 WARN  no build target for: C:\Users\eperez176\revature\project1\src\main\scala\main.scala[0m
+[0m2021.10.29 10:09:30 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_144\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\EPEREZ~1\AppData\Local\Temp\metals2606108393185483298\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.29 10:09:30 ERROR [info] [launcher] getting org.scala-sbt sbt 1.5.5  (this may take some time)...[0m
+[0m2021.10.29 10:09:33 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.10.29 10:10:00 INFO  time: code lens generation in 32s[0m
+[0m2021.10.29 10:10:00 INFO  time: code lens generation in 33s[0m
+[0m2021.10.29 10:10:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.5/sbt-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.5.5/main_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.5.5/logic_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14.jar ...[0m
+[0m2021.10.29 10:10:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.5.5/actions_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.5.1/io_2.12-1.5.1.jar ...[0m
+[0m2021.10.29 10:10:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.5.5/run_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.5.5/main-settings_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:14 ERROR :: loading settings :: url = jar:file:/C:/Users/eperez176/AppData/Local/Temp/metals2606108393185483298/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.10.29 10:10:14 ERROR :: loading settings :: url = jar:file:/C:/Users/eperez176/AppData/Local/Temp/metals2606108393185483298/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.10.29 10:10:14 ERROR :: loading settings :: url = jar:file:/C:/Users/eperez176/AppData/Local/Temp/metals2606108393185483298/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.10.29 10:10:14 ERROR :: loading settings :: url = jar:file:/C:/Users/eperez176/AppData/Local/Temp/metals2606108393185483298/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.10.29 10:10:14 ERROR :: loading settings :: url = jar:file:/C:/Users/eperez176/AppData/Local/Temp/metals2606108393185483298/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.10.29 10:10:14 ERROR :: loading settings :: url = jar:file:/C:/Users/eperez176/AppData/Local/Temp/metals2606108393185483298/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.10.29 10:10:14 ERROR :: loading settings :: url = jar:file:/C:/Users/eperez176/AppData/Local/Temp/metals2606108393185483298/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.10.29 10:10:14 ERROR :: loading settings :: url = jar:file:/C:/Users/eperez176/AppData/Local/Temp/metals2606108393185483298/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.10.29 10:10:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbt;1.5.5!sbt.jar (459ms)[0m
+[0m2021.10.29 10:10:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.5.5/command_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#logic_2.12;1.5.5!logic_2.12.jar (662ms)[0m
+[0m2021.10.29 10:10:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.5.5/collections_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#run_2.12;1.5.5!run_2.12.jar (668ms)[0m
+[0m2021.10.29 10:10:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.5.5/scripted-plugin_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#actions_2.12;1.5.5!actions_2.12.jar (846ms)[0m
+[0m2021.10.29 10:10:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.5.5/zinc-lm-integration_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:14 ERROR 	[SUCCESSFUL ] org.scala-sbt#scripted-plugin_2.12;1.5.5!scripted-plugin_2.12.jar (316ms)[0m
+[0m2021.10.29 10:10:14 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.5.5/util-logging_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:16 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-lm-integration_2.12;1.5.5!zinc-lm-integration_2.12.jar (332ms)[0m
+[0m2021.10.29 10:10:16 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar ...[0m
+[0m2021.10.29 10:10:16 ERROR 	[SUCCESSFUL ] org.scala-sbt#io_2.12;1.5.1!io_2.12.jar (1281ms)[0m
+[0m2021.10.29 10:10:16 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.3.3/launcher-interface-1.3.3.jar ...[0m
+[0m2021.10.29 10:10:16 ERROR 	[SUCCESSFUL ] org.scala-sbt#command_2.12;1.5.5!command_2.12.jar (848ms)[0m
+[0m2021.10.29 10:10:16 ERROR 	[SUCCESSFUL ] org.scala-sbt#main-settings_2.12;1.5.5!main-settings_2.12.jar (1307ms)[0m
+[0m2021.10.29 10:10:16 ERROR downloading https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.5/caffeine-2.8.5.jar ...[0m
+[0m2021.10.29 10:10:16 ERROR downloading https://repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.0.8/lm-coursier-shaded_2.12-2.0.8.jar ...[0m
+[0m2021.10.29 10:10:16 ERROR 	[SUCCESSFUL ] org.scala-sbt#collections_2.12;1.5.5!collections_2.12.jar (668ms)[0m
+[0m2021.10.29 10:10:16 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar ...[0m
+[0m2021.10.29 10:10:16 ERROR 	[SUCCESSFUL ] org.scala-sbt#launcher-interface;1.3.3!launcher-interface.jar (347ms)[0m
+[0m2021.10.29 10:10:16 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar ...[0m
+[0m2021.10.29 10:10:16 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-logging_2.12;1.5.5!util-logging_2.12.jar (970ms)[0m
+[0m2021.10.29 10:10:16 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.11.2/log4j-slf4j-impl-2.11.2.jar ...[0m
+[0m2021.10.29 10:10:16 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-api;2.11.2!log4j-api.jar (792ms)[0m
+[0m2021.10.29 10:10:16 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.5.3/librarymanagement-core_2.12-1.5.3.jar ...[0m
+[0m2021.10.29 10:10:17 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.3.0!scala-xml_2.12.jar(bundle) (1050ms)[0m
+[0m2021.10.29 10:10:17 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.5.3/librarymanagement-ivy_2.12-1.5.3.jar ...[0m
+[0m2021.10.29 10:10:17 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-slf4j-impl;2.11.2!log4j-slf4j-impl.jar (386ms)[0m
+[0m2021.10.29 10:10:17 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.5.7/compiler-interface-1.5.7.jar ...[0m
+[0m2021.10.29 10:10:17 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-interface;1.5.7!compiler-interface.jar (381ms)[0m
+[0m2021.10.29 10:10:17 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.5.7/zinc-compile_2.12-1.5.7.jar ...[0m
+[0m2021.10.29 10:10:17 ERROR 	[SUCCESSFUL ] com.github.ben-manes.caffeine#caffeine;2.8.5!caffeine.jar (1669ms)[0m
+[0m2021.10.29 10:10:17 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.5.5/util-relation_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:17 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile_2.12;1.5.7!zinc-compile_2.12.jar (369ms)[0m
+[0m2021.10.29 10:10:17 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.5.5/util-position_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:18 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-relation_2.12;1.5.5!util-relation_2.12.jar (303ms)[0m
+[0m2021.10.29 10:10:18 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1.jar ...[0m
+[0m2021.10.29 10:10:18 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-ivy_2.12;1.5.3!librarymanagement-ivy_2.12.jar (1178ms)[0m
+[0m2021.10.29 10:10:18 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.14/scala-reflect-2.12.14.jar ...[0m
+[0m2021.10.29 10:10:18 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-position_2.12;1.5.5!util-position_2.12.jar (329ms)[0m
+[0m2021.10.29 10:10:18 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1.jar ...[0m
+[0m2021.10.29 10:10:18 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-scalajson_2.12;0.9.1!sjson-new-scalajson_2.12.jar (358ms)[0m
+[0m2021.10.29 10:10:18 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1.jar ...[0m
+[0m2021.10.29 10:10:18 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-core_2.12;1.5.3!librarymanagement-core_2.12.jar (1746ms)[0m
+[0m2021.10.29 10:10:18 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.jar ...[0m
+[0m2021.10.29 10:10:18 ERROR 	[SUCCESSFUL ] com.eed3si9n#shaded-jawn-parser_2.12;0.9.1!shaded-jawn-parser_2.12.jar (467ms)[0m
+[0m2021.10.29 10:10:18 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.5.5/completion_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:18 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-core;2.11.2!log4j-core.jar (2494ms)[0m
+[0m2021.10.29 10:10:18 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.5.5/task-system_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:18 ERROR 	[SUCCESSFUL ] org.scala-sbt#main_2.12;1.5.5!main_2.12.jar (4213ms)[0m
+[0m2021.10.29 10:10:18 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.5.5/tasks_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:18 ERROR 	[SUCCESSFUL ] com.eed3si9n#shaded-scalajson_2.12;1.0.0-M4!shaded-scalajson_2.12.jar (357ms)[0m
+[0m2021.10.29 10:10:18 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.5.5/testing_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:19 ERROR 	[SUCCESSFUL ] org.scala-sbt#task-system_2.12;1.5.5!task-system_2.12.jar (494ms)[0m
+[0m2021.10.29 10:10:19 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.5.5/util-tracking_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:19 ERROR 	[SUCCESSFUL ] org.scala-sbt#tasks_2.12;1.5.5!tasks_2.12.jar (510ms)[0m
+[0m2021.10.29 10:10:19 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar ...[0m
+[0m2021.10.29 10:10:19 ERROR 	[SUCCESSFUL ] org.scala-sbt#testing_2.12;1.5.5!testing_2.12.jar (695ms)[0m
+[0m2021.10.29 10:10:19 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.5.7/zinc-classpath_2.12-1.5.7.jar ...[0m
+[0m2021.10.29 10:10:19 ERROR 	[SUCCESSFUL ] org.scala-sbt#completion_2.12;1.5.5!completion_2.12.jar (857ms)[0m
+[0m2021.10.29 10:10:19 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.5.7/zinc-apiinfo_2.12-1.5.7.jar ...[0m
+[0m2021.10.29 10:10:19 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.5.5!util-tracking_2.12.jar (406ms)[0m
+[0m2021.10.29 10:10:19 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.5.7/zinc_2.12-1.5.7.jar ...[0m
+[0m2021.10.29 10:10:19 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal;3.19.0!jline-terminal.jar (741ms)[0m
+[0m2021.10.29 10:10:19 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.5.5/util-control_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:19 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classpath_2.12;1.5.7!zinc-classpath_2.12.jar (546ms)[0m
+[0m2021.10.29 10:10:19 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.jar ...[0m
+[0m2021.10.29 10:10:19 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc_2.12;1.5.7!zinc_2.12.jar (460ms)[0m
+[0m2021.10.29 10:10:19 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar ...[0m
+[0m2021.10.29 10:10:19 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-core_2.12;0.9.1!sjson-new-core_2.12.jar (2069ms)[0m
+[0m2021.10.29 10:10:19 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-builtins/3.19.0/jline-builtins-3.19.0.jar ...[0m
+[0m2021.10.29 10:10:19 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-apiinfo_2.12;1.5.7!zinc-apiinfo_2.12.jar (536ms)[0m
+[0m2021.10.29 10:10:19 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.5.5/util-interface-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:20 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-control_2.12;1.5.5!util-control_2.12.jar (283ms)[0m
+[0m2021.10.29 10:10:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.5.5/core-macros_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:20 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-interface;1.5.5!util-interface.jar (351ms)[0m
+[0m2021.10.29 10:10:20 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar ...[0m
+[0m2021.10.29 10:10:20 ERROR 	[SUCCESSFUL ] org.scala-sbt.jline#jline;2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493!jline.jar (693ms)[0m
+[0m2021.10.29 10:10:20 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0.jar ...[0m
+[0m2021.10.29 10:10:20 ERROR 	[SUCCESSFUL ] org.jline#jline-reader;3.19.0!jline-reader.jar (772ms)[0m
+[0m2021.10.29 10:10:20 ERROR downloading https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar ...[0m
+[0m2021.10.29 10:10:20 ERROR 	[SUCCESSFUL ] org.jline#jline-builtins;3.19.0!jline-builtins.jar (904ms)[0m
+[0m2021.10.29 10:10:20 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.14/scala-compiler-2.12.14.jar ...[0m
+[0m2021.10.29 10:10:20 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal-jna;3.19.0!jline-terminal-jna.jar (580ms)[0m
+[0m2021.10.29 10:10:20 ERROR 	[SUCCESSFUL ] org.scala-sbt#core-macros_2.12;1.5.5!core-macros_2.12.jar (685ms)[0m
+[0m2021.10.29 10:10:20 ERROR downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.jar ...[0m
+[0m2021.10.29 10:10:20 ERROR downloading https://repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.6/file-tree-views-2.1.6.jar ...[0m
+[0m2021.10.29 10:10:20 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal-jansi;3.19.0!jline-terminal-jansi.jar (304ms)[0m
+[0m2021.10.29 10:10:20 ERROR downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar ...[0m
+[0m2021.10.29 10:10:20 ERROR 	[SUCCESSFUL ] com.lmax#disruptor;3.4.2!disruptor.jar (475ms)[0m
+[0m2021.10.29 10:10:20 ERROR downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar ...[0m
+[0m2021.10.29 10:10:22 ERROR 	[SUCCESSFUL ] com.swoval#file-tree-views;2.1.6!file-tree-views.jar (1445ms)[0m
+[0m2021.10.29 10:10:22 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar ...[0m
+[0m2021.10.29 10:10:22 ERROR 	[SUCCESSFUL ] org.fusesource.jansi#jansi;2.1.0!jansi.jar (1653ms)[0m
+[0m2021.10.29 10:10:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.5.5/util-cache_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:22 ERROR 	[SUCCESSFUL ] org.jline#jline-style;3.19.0!jline-style.jar (475ms)[0m
+[0m2021.10.29 10:10:22 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.jar ...[0m
+[0m2021.10.29 10:10:22 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-murmurhash_2.12;0.9.1!sjson-new-murmurhash_2.12.jar (457ms)[0m
+[0m2021.10.29 10:10:22 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.5.5/test-agent-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:23 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.14!scala-library.jar (8960ms)[0m
+[0m2021.10.29 10:10:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar ...[0m
+[0m2021.10.29 10:10:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-agent;1.5.5!test-agent.jar (449ms)[0m
+[0m2021.10.29 10:10:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.5.7/compiler-bridge_2.12-1.5.7.jar ...[0m
+[0m2021.10.29 10:10:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-interface;1.0!test-interface.jar (368ms)[0m
+[0m2021.10.29 10:10:23 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.5.7/zinc-classfile_2.12-1.5.7.jar ...[0m
+[0m2021.10.29 10:10:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-cache_2.12;1.5.5!util-cache_2.12.jar (1316ms)[0m
+[0m2021.10.29 10:10:23 ERROR downloading https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar ...[0m
+[0m2021.10.29 10:10:23 ERROR 	[SUCCESSFUL ] net.java.dev.jna#jna;5.5.0!jna.jar (3041ms)[0m
+[0m2021.10.29 10:10:23 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.5.0/gigahorse-okhttp_2.12-0.5.0.jar ...[0m
+[0m2021.10.29 10:10:23 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classfile_2.12;1.5.7!zinc-classfile_2.12.jar (519ms)[0m
+[0m2021.10.29 10:10:23 ERROR downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.7.0/okhttp-urlconnection-3.7.0.jar ...[0m
+[0m2021.10.29 10:10:24 ERROR 	[SUCCESSFUL ] com.eed3si9n#gigahorse-okhttp_2.12;0.5.0!gigahorse-okhttp_2.12.jar (550ms)[0m
+[0m2021.10.29 10:10:24 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.5.0/gigahorse-core_2.12-0.5.0.jar ...[0m
+[0m2021.10.29 10:10:24 ERROR 	[SUCCESSFUL ] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar (415ms)[0m
+[0m2021.10.29 10:10:24 ERROR downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.2/okhttp-3.14.2.jar ...[0m
+[0m2021.10.29 10:10:24 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-bridge_2.12;1.5.7!compiler-bridge_2.12.jar (1045ms)[0m
+[0m2021.10.29 10:10:24 ERROR downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.0/ssl-config-core_2.12-0.4.0.jar ...[0m
+[0m2021.10.29 10:10:24 ERROR 	[SUCCESSFUL ] com.eed3si9n#gigahorse-core_2.12;0.5.0!gigahorse-core_2.12.jar (639ms)[0m
+[0m2021.10.29 10:10:24 ERROR downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar ...[0m
+[0m2021.10.29 10:10:24 ERROR 	[SUCCESSFUL ] com.jcraft#jsch;0.1.54!jsch.jar (1456ms)[0m
+[0m2021.10.29 10:10:24 ERROR downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar ...[0m
+[0m2021.10.29 10:10:24 ERROR 	[SUCCESSFUL ] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar (357ms)[0m
+[0m2021.10.29 10:10:24 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar ...[0m
+[0m2021.10.29 10:10:26 ERROR 	[SUCCESSFUL ] com.squareup.okhttp3#okhttp;3.14.2!okhttp.jar (1017ms)[0m
+[0m2021.10.29 10:10:26 ERROR downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar ...[0m
+[0m2021.10.29 10:10:26 ERROR 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.26!slf4j-api.jar (469ms)[0m
+[0m2021.10.29 10:10:26 ERROR downloading https://repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar ...[0m
+[0m2021.10.29 10:10:26 ERROR 	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.12;0.4.0!ssl-config-core_2.12.jar(bundle) (1112ms)[0m
+[0m2021.10.29 10:10:26 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.5.7/zinc-core_2.12-1.5.7.jar ...[0m
+[0m2021.10.29 10:10:26 ERROR 	[SUCCESSFUL ] net.java.dev.jna#jna-platform;5.5.0!jna-platform.jar (4880ms)[0m
+[0m2021.10.29 10:10:26 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.5.7/zinc-persist_2.12-1.5.7.jar ...[0m
+[0m2021.10.29 10:10:26 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2!scala-parser-combinators_2.12.jar(bundle) (570ms)[0m
+[0m2021.10.29 10:10:26 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.5.7/zinc-compile-core_2.12-1.5.7.jar ...[0m
+[0m2021.10.29 10:10:26 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.14!scala-reflect.jar (8315ms)[0m
+[0m2021.10.29 10:10:26 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.7/zinc-persist-core-assembly-1.5.7.jar ...[0m
+[0m2021.10.29 10:10:26 ERROR 	[SUCCESSFUL ] com.squareup.okio#okio;1.17.2!okio.jar (491ms)[0m
+[0m2021.10.29 10:10:26 ERROR downloading https://repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.jar ...[0m
+[0m2021.10.29 10:10:26 ERROR 	[SUCCESSFUL ] com.typesafe#config;1.3.3!config.jar(bundle) (710ms)[0m
+[0m2021.10.29 10:10:26 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar ...[0m
+[0m2021.10.29 10:10:26 ERROR 	[SUCCESSFUL ] net.openhft#zero-allocation-hashing;0.10.1!zero-allocation-hashing.jar(bundle) (439ms)[0m
+[0m2021.10.29 10:10:26 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.5.5/protocol_2.12-1.5.5.jar ...[0m
+[0m2021.10.29 10:10:27 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile-core_2.12;1.5.7!zinc-compile-core_2.12.jar (649ms)[0m
+[0m2021.10.29 10:10:27 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/template-resolver/0.1/template-resolver-0.1.jar ...[0m
+[0m2021.10.29 10:10:27 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist_2.12;1.5.7!zinc-persist_2.12.jar (674ms)[0m
+[0m2021.10.29 10:10:27 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.3.1/ipcsocket-1.3.1.jar ...[0m
+[0m2021.10.29 10:10:27 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbinary_2.12;0.5.1!sbinary_2.12.jar (436ms)[0m
+[0m2021.10.29 10:10:27 ERROR downloading https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.1/checker-qual-3.4.1.jar ...[0m
+[0m2021.10.29 10:10:27 ERROR 	[SUCCESSFUL ] org.scala-sbt#template-resolver;0.1!template-resolver.jar (217ms)[0m
+[0m2021.10.29 10:10:27 ERROR downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar ...[0m
+[0m2021.10.29 10:10:27 ERROR 	[SUCCESSFUL ] org.scala-sbt.ipcsocket#ipcsocket;1.3.1!ipcsocket.jar (624ms)[0m
+[0m2021.10.29 10:10:27 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.4.2/scala-collection-compat_2.12-2.4.2.jar ...[0m
+[0m2021.10.29 10:10:27 ERROR 	[SUCCESSFUL ] com.google.errorprone#error_prone_annotations;2.4.0!error_prone_annotations.jar (580ms)[0m
+[0m2021.10.29 10:10:27 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745/ivy-2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745.jar ...[0m
+[0m2021.10.29 10:10:27 ERROR 	[SUCCESSFUL ] io.get-coursier#lm-coursier-shaded_2.12;2.0.8!lm-coursier-shaded_2.12.jar (11833ms)[0m
+[0m2021.10.29 10:10:27 ERROR 	[SUCCESSFUL ] org.checkerframework#checker-qual;3.4.1!checker-qual.jar (825ms)[0m
+[0m2021.10.29 10:10:28 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-core_2.12;1.5.7!zinc-core_2.12.jar (2011ms)[0m
+[0m2021.10.29 10:10:28 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-collection-compat_2.12;2.4.2!scala-collection-compat_2.12.jar (521ms)[0m
+[0m2021.10.29 10:10:28 ERROR 	[SUCCESSFUL ] org.scala-sbt#protocol_2.12;1.5.5!protocol_2.12.jar (1965ms)[0m
+[0m2021.10.29 10:10:28 ERROR 	[SUCCESSFUL ] org.scala-sbt.ivy#ivy;2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745!ivy.jar (1196ms)[0m
+[0m2021.10.29 10:10:30 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist-core-assembly;1.5.7!zinc-persist-core-assembly.jar (3796ms)[0m
+[0m2021.10.29 10:10:32 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.14!scala-compiler.jar (10845ms)[0m
+[0m2021.10.29 10:10:32 ERROR :: retrieving :: org.scala-sbt#boot-app[0m
+[0m2021.10.29 10:10:32 ERROR 	confs: [default][0m
+[0m2021.10.29 10:10:32 ERROR 	83 artifacts copied, 0 already retrieved[0m
+[0m2021.10.29 10:10:32 ERROR [info] [launcher] getting Scala 2.12.14 (for sbt)...[0m
+[0m2021.10.29 10:10:35 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar ...[0m
+[0m2021.10.29 10:10:35 ERROR downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar ...[0m
+[0m2021.10.29 10:10:35 ERROR downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar ...[0m
+[0m2021.10.29 10:10:35 ERROR 	[SUCCESSFUL ] org.fusesource.jansi#jansi;1.12!jansi.jar (309ms)[0m
+[0m2021.10.29 10:10:35 ERROR 	[SUCCESSFUL ] jline#jline;2.14.6!jline.jar (339ms)[0m
+[0m2021.10.29 10:10:35 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle) (585ms)[0m
+[0m2021.10.29 10:10:35 ERROR :: retrieving :: org.scala-sbt#boot-scala[0m
+[0m2021.10.29 10:10:35 ERROR 	confs: [default][0m
+[0m2021.10.29 10:10:35 ERROR 	6 artifacts copied, 0 already retrieved[0m
+[0m2021.10.29 10:10:38 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 1.8.0_144)[0m
+[0m2021.10.29 10:10:42 INFO  [info] loading settings for project project1-build-build from metals.sbt ...[0m
+[0m2021.10.29 10:10:42 INFO  [info] loading project definition from C:\Users\eperez176\revature\project1\project\project[0m
+[0m2021.10.29 10:10:57 INFO  [info] loading settings for project project1-build from metals.sbt ...[0m
+[0m2021.10.29 10:10:57 INFO  [info] loading project definition from C:\Users\eperez176\revature\project1\project[0m
+[0m2021.10.29 10:11:22 INFO  [success] Generated .bloop\project1-build.json[0m
+[0m2021.10.29 10:11:22 INFO  [info] compiling 1 Scala source to C:\Users\eperez176\revature\project1\project\target\scala-2.12\sbt-1.0\classes ...[0m
+[0m2021.10.29 10:11:22 INFO  [info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.14. Compiling...[0m
+[0m2021.10.29 10:11:33 INFO  [info]   Compilation completed in 11.176s.[0m
+[0m2021.10.29 10:11:34 INFO  [info] done compiling[0m
+[0m2021.10.29 10:11:34 INFO  [success] Total time: 37 s, completed Oct 29, 2021 10:11:35 AM[0m
+[0m2021.10.29 10:11:38 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.10.29 10:11:38 INFO  [info] set current project to project1 (in build file:/C:/Users/eperez176/revature/project1/)[0m
+[0m2021.10.29 10:12:23 INFO  [success] Generated .bloop\root.json[0m
+[0m2021.10.29 10:12:23 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2021.10.29 10:12:23 INFO  [success] Total time: 44 s, completed Oct 29, 2021 10:12:23 AM[0m
+[0m2021.10.29 10:12:23 INFO  time: ran 'sbt bloopInstall' in 2m53s[0m
+[0m2021.10.29 10:12:23 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 39061'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\eperez176\revature\project1\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\eperez176\revature\project1\.bloop\root.json'
+[0m[32m[D][0m Loading project from 'c:\Users\eperez176\revature\project1\.bloop\root-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.6.
+[0m[32m[D][0m   => C:\Users\eperez176\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\eperez176\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.19.0\jline-3.19.0.jar
+[0m[32m[D][0m   => C:\Users\eperez176\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.6\scala-compiler-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\eperez176\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+[0m[32m[D][0m   => C:\Users\eperez176\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.6\scala-reflect-2.13.6.jar
+[0m[32m[D][0m Resolving org.scalameta:semanticdb-scalac_2.13.6:4.4.28
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'root', 'root-test'
+[0m[32m[D][0m Missing analysis file for project 'root'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:39061...
+The server is listening for incoming connections at tcp://127.0.0.1:39061...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.29 10:12:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\eperez176\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.29 10:12:34 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 28087'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:28087...
+The server is listening for incoming connections at tcp://127.0.0.1:28087...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.29 10:12:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\eperez176\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.29 10:12:41 INFO  time: Connected to build server in 18s[0m
+[0m2021.10.29 10:12:41 INFO  Connected to Build server: Bloop v1.4.10-8-8d1cbc4f[0m
+[0m2021.10.29 10:12:41 INFO  time: Imported build in 0.18s[0m
+[0m2021.10.29 10:12:46 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.10.29 10:12:53 INFO  time: indexed workspace in 11s[0m
+[0m2021.10.29 10:12:54 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
+[0m2021.10.29 10:20:09 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.29 10:20:19 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.29 10:20:19 INFO  compiling root-test (1 scala source)[0m
+[0m2021.10.29 10:20:19 INFO  time: compiled root in 10s[0m
+[0m2021.10.29 10:20:19 INFO  time: compiled root-test in 0.54s[0m
+Oct 29, 2021 10:40:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+[0m2021.10.29 10:40:54 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 10:40:54 INFO  time: compiled root in 0.86s[0m
+[0m2021.10.29 10:41:26 WARN  no build target for: C:\Users\eperez176\revature\project0\src\main\scala\login\login.scala[0m
+[0m2021.10.29 10:41:27 INFO  time: code lens generation in 1.44s[0m
+[0m2021.10.29 10:41:32 WARN  no build target for: C:\Users\eperez176\revature\project0\src\main\scala\login\newLogin.scala[0m
+Oct 29, 2021 10:41:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 139
+Oct 29, 2021 10:41:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 144
+Oct 29, 2021 10:41:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 6 is not a valid line number, allowed [0..5]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1554)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1553)
+	... 15 more
+
+Oct 29, 2021 10:41:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 6 is not a valid line number, allowed [0..5]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1554)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1553)
+	... 15 more
+
+Oct 29, 2021 10:42:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 6 is not a valid line number, allowed [0..5]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1554)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1553)
+	... 15 more
+
+[0m2021.10.29 10:42:22 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 10:42:22 INFO  time: compiled root in 0.26s[0m
+[0m2021.10.29 10:42:28 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 10:42:29 INFO  time: compiled root in 1.1s[0m
+Oct 29, 2021 10:42:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 276
+Oct 29, 2021 10:42:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 287
+Oct 29, 2021 10:42:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 296
+Oct 29, 2021 10:42:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 301
+Oct 29, 2021 10:42:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 10:43:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 365
+Oct 29, 2021 10:43:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 370
+Oct 29, 2021 10:43:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 376
+Oct 29, 2021 10:43:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 383
+Oct 29, 2021 10:43:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 470
+Oct 29, 2021 10:43:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 475
+[0m2021.10.29 10:43:49 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 10:43:51 INFO  time: compiled root in 1.56s[0m
+Oct 29, 2021 10:43:53 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 10:43:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 10:44:02 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 10:44:02 INFO  time: compiled root in 0.3s[0m
+[0m2021.10.29 10:45:48 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 10:45:49 INFO  time: compiled root in 1.07s[0m
+[0m2021.10.29 10:46:21 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 10:46:22 INFO  time: compiled root in 1.23s[0m
+Oct 29, 2021 10:46:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 826
+Oct 29, 2021 10:46:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 838
+[0m2021.10.29 10:46:33 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 10:46:34 INFO  time: compiled root in 1.33s[0m
+Oct 29, 2021 10:46:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 857
+Oct 29, 2021 10:47:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 864
+[0m2021.10.29 10:48:35 INFO  compiling root (1 scala source)[0m
+Oct 29, 2021 10:48:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 10:48:36 INFO  time: compiled root in 1.11s[0m
+[0m2021.10.29 10:48:41 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 10:48:43 INFO  time: compiled root in 1.66s[0m
+Oct 29, 2021 11:01:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1182
+Oct 29, 2021 11:01:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1195
+Oct 29, 2021 11:01:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:01:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:02:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1206
+Oct 29, 2021 11:02:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:02:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1216
+Oct 29, 2021 11:02:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1238
+Oct 29, 2021 11:02:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1249
+Oct 29, 2021 11:02:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:03:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:03:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1260
+Oct 29, 2021 11:04:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1470
+Oct 29, 2021 11:04:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:04:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1478
+[0m2021.10.29 11:05:15 INFO  compiling root (1 scala source)[0m
+Oct 29, 2021 11:05:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1623
+[0m2021.10.29 11:05:16 INFO  time: compiled root in 1.75s[0m
+Oct 29, 2021 11:05:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1629
+Oct 29, 2021 11:06:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 11:07:03 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:07:04 INFO  time: compiled root in 1.26s[0m
+[0m2021.10.29 11:07:56 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:07:57 INFO  time: compiled root in 1.54s[0m
+Oct 29, 2021 11:08:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2192
+Oct 29, 2021 11:08:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2198
+Oct 29, 2021 11:08:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:08:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2208
+[0m2021.10.29 11:08:42 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:08:44 INFO  time: compiled root in 1.72s[0m
+[0m2021.10.29 11:08:47 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:08:49 INFO  time: compiled root in 1.33s[0m
+Oct 29, 2021 11:10:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 11:11:08 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.29 11:11:10 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.29 11:11:10 INFO  time: compiled root in 1.47s[0m
+[0m2021.10.29 11:11:18 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.29 11:11:19 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.29 11:11:19 INFO  time: compiled root in 1.6s[0m
+Oct 29, 2021 11:11:33 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Oct 29, 2021 11:11:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:965)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:813)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Oct 29, 2021 11:11:50 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+[0m2021.10.29 11:11:52 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:11:52 INFO  time: compiled root in 0.27s[0m
+[0m2021.10.29 11:12:00 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:12:02 INFO  time: compiled root in 1.69s[0m
+[0m2021.10.29 11:12:46 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:12:46 INFO  time: compiled root in 0.35s[0m
+Oct 29, 2021 11:13:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2549
+[0m2021.10.29 11:13:09 INFO  compiling root (2 scala sources)[0m
+Oct 29, 2021 11:13:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2572
+[0m2021.10.29 11:13:11 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.29 11:13:11 INFO  time: compiled root in 2.23s[0m
+Oct 29, 2021 11:13:20 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 11:13:32 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:13:34 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.29 11:13:34 INFO  time: compiled root in 1.71s[0m
+Oct 29, 2021 11:15:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2634
+Oct 29, 2021 11:15:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2639
+Oct 29, 2021 11:15:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 11:15:50 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:15:50 INFO  time: compiled root in 0.87s[0m
+Oct 29, 2021 11:15:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2710
+Oct 29, 2021 11:16:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:16:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:16:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:18:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:20:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2723
+[0m2021.10.29 11:20:55 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:20:56 INFO  time: compiled root in 1.18s[0m
+[0m2021.10.29 11:23:01 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:23:02 INFO  time: compiled root in 1.03s[0m
+[0m2021.10.29 11:24:57 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:24:58 INFO  time: compiled root in 1.21s[0m
+[0m2021.10.29 11:25:31 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:25:32 INFO  time: compiled root in 1.34s[0m
+Oct 29, 2021 11:26:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3630
+Oct 29, 2021 11:26:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:27:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3637
+[0m2021.10.29 11:27:21 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:27:21 INFO  time: compiled root in 0.18s[0m
+[0m2021.10.29 11:27:41 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:27:41 INFO  time: compiled root in 0.25s[0m
+[0m2021.10.29 11:28:08 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:28:09 INFO  time: compiled root in 1.37s[0m
+[0m2021.10.29 11:29:32 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:29:33 INFO  time: compiled root in 1.24s[0m
+[0m2021.10.29 11:29:33 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 11:29:33 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.10.29 11:29:33 INFO  time: compiled root in 0.72s[0m
+Oct 29, 2021 11:29:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3833
+Oct 29, 2021 11:29:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3838
+[0m2021.10.29 11:30:26 WARN  no build target for: C:\Users\eperez176\revature\Oct2021ScalaBatch\scalahive\src\main\scala\example\HiveClient.scala[0m
+[0m2021.10.29 11:31:10 INFO  compiling project1-build (1 scala source)[0m
+[0m2021.10.29 11:31:10 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.14. Compiling...[0m
+Oct 29, 2021 11:31:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3857
+[0m2021.10.29 11:31:19 INFO  time: code lens generation in 8.08s[0m
+Oct 29, 2021 11:31:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3859
+Oct 29, 2021 11:31:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3863
+Oct 29, 2021 11:31:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3860
+Oct 29, 2021 11:31:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3861
+Oct 29, 2021 11:31:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3864
+[0m2021.10.29 11:31:19 INFO  Deduplicating compilation of project1-build from bsp client 'Metals 0.10.8' (since 1h 18m 42.81s)[0m
+[0m2021.10.29 11:31:19 INFO  compiling project1-build (1 scala source)[0m
+Oct 29, 2021 11:31:20 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:31:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:31:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 11:31:24 INFO    Compilation completed in 13.016s.[0m
+[0m2021.10.29 11:31:26 INFO  time: compiled project1-build in 6.96s[0m
+Oct 29, 2021 11:31:26 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:31:27 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:31:27 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 11:31:47 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_144\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\EPEREZ~1\AppData\Local\Temp\metals6348476413937112682\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.29 11:31:49 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 1.8.0_144)[0m
+[0m2021.10.29 11:31:51 INFO  [info] loading settings for project project1-build-build from metals.sbt ...[0m
+[0m2021.10.29 11:31:52 INFO  [info] loading project definition from C:\Users\eperez176\revature\project1\project\project[0m
+[0m2021.10.29 11:31:54 INFO  [info] loading settings for project project1-build from metals.sbt ...[0m
+[0m2021.10.29 11:31:54 INFO  [info] loading project definition from C:\Users\eperez176\revature\project1\project[0m
+[0m2021.10.29 11:32:00 INFO  [success] Generated .bloop\project1-build.json[0m
+[0m2021.10.29 11:32:01 INFO  [success] Total time: 7 s, completed Oct 29, 2021 11:32:01 AM[0m
+[0m2021.10.29 11:32:04 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.10.29 11:32:04 INFO  [info] set current project to project1 (in build file:/C:/Users/eperez176/revature/project1/)[0m
+[0m2021.10.29 11:32:28 INFO  [success] Generated .bloop\root.json[0m
+[0m2021.10.29 11:32:28 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2021.10.29 11:32:28 INFO  [success] Total time: 24 s, completed Oct 29, 2021 11:32:28 AM[0m
+[0m2021.10.29 11:32:28 INFO  time: ran 'sbt bloopInstall' in 41s[0m
+[0m2021.10.29 11:32:28 INFO  Disconnecting from Bloop session...[0m
+[0m2021.10.29 11:32:28 INFO  Shut down connection with build server.[0m
+[0m2021.10.29 11:32:28 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.29 11:32:28 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 25709'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\eperez176\revature\project1\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\eperez176\revature\project1\.bloop\root-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\eperez176\revature\project1\.bloop\root.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.8.
+[0m[32m[D][0m   => C:\Users\eperez176\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.12.1\jline-2.12.1.jar
+[0m[32m[D][0m   => C:\Users\eperez176\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+[0m[32m[D][0m   => C:\Users\eperez176\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.4\scala-xml_2.11-1.0.4.jar
+[0m[32m[D][0m   => C:\Users\eperez176\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.8\scala-compiler-2.11.8.jar
+[0m[32m[D][0m   => C:\Users\eperez176\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+[0m[32m[D][0m   => C:\Users\eperez176\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.8\scala-reflect-2.11.8.jar
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 2.11.8 projects
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:25709...
+The server is listening for incoming connections at tcp://127.0.0.1:25709...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.29 11:32:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\eperez176\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.29 11:32:30 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 20388'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:20388...
+The server is listening for incoming connections at tcp://127.0.0.1:20388...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.29 11:32:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\eperez176\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.29 11:32:32 INFO  time: Connected to build server in 3.21s[0m
+[0m2021.10.29 11:32:32 INFO  Connected to Build server: Bloop v1.4.10-8-8d1cbc4f[0m
+Oct 29, 2021 11:32:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3893
+[0m2021.10.29 11:32:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 11:32:53 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Exception in thread "pool-7-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	... 3 more
+[0m2021.10.29 11:32:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 11:32:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 11:37:46 INFO  shutting down Metals[0m
+[0m2021.10.29 11:37:46 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.29 11:37:46 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.10.29 12:06:17 INFO  Started: Metals version 0.10.8 in workspace 'C:\Users\eperez176\revature\project1' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.29 12:06:19 INFO  time: initialize in 2.27s[0m
+[0m2021.10.29 12:06:22 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.29 12:06:22 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 13592'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13592...
+The server is listening for incoming connections at tcp://127.0.0.1:13592...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.29 12:06:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\eperez176\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.29 12:06:27 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 18822'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:18822...
+The server is listening for incoming connections at tcp://127.0.0.1:18822...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.29 12:06:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\eperez176\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.29 12:06:29 INFO  time: Connected to build server in 7.84s[0m
+[0m2021.10.29 12:06:29 INFO  Connected to Build server: Bloop v1.4.10-8-8d1cbc4f[0m
+[0m2021.10.29 12:06:30 INFO  time: Imported build in 0.22s[0m
+[0m2021.10.29 12:06:38 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.10.29 12:06:45 INFO  time: indexed workspace in 15s[0m
+[0m2021.10.29 12:06:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 12:06:46 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.29 12:06:53 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.10.29 12:07:26 INFO  time: compiled root in 40s[0m
+[0m2021.10.29 12:07:26 INFO  compiling root-test (1 scala source)[0m
+[0m2021.10.29 12:07:30 INFO  time: compiled root-test in 3.86s[0m
+[0m2021.10.29 12:07:32 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 12:08:13 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 12:08:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.10.29 12:08:35 WARN  no build target for: C:\Users\eperez176\revature\Oct2021ScalaBatch\scalahive\src\main\scala\example\HiveClient.scala[0m
+Oct 29, 2021 12:08:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+[0m2021.10.29 12:08:38 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 12:08:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+[0m2021.10.29 12:08:41 INFO  time: code lens generation in 6.28s[0m
+Oct 29, 2021 12:08:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+[0m2021.10.29 12:08:53 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 12:08:54 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 12:08:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51
+[0m2021.10.29 12:08:56 INFO  time: compiled root in 2.67s[0m
+Exception in thread "pool-3-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	... 3 more
+Exception in thread "pool-3-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	... 3 more
+Oct 29, 2021 12:09:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63
+Oct 29, 2021 12:09:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+[0m2021.10.29 12:09:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 12:09:07 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 12:09:07 INFO  time: compiled root in 0.93s[0m
+[0m2021.10.29 12:09:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 12:09:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 12:11:19 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 12:11:21 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 12:11:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 12:11:21 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 12:11:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 12:11:23 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 12:11:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 12:11:23 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 12:11:24 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 12:11:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 12:11:30 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 12:11:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 12:11:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 12:11:35 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 12:11:37 INFO  time: compiled root in 1.82s[0m
