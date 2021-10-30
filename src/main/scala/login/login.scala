@@ -32,6 +32,7 @@ object Login {
             stmt.executeQuery("Show databases");
             System.out.println("show database successfully");
 
+            // Re-Load the db from users.csv
             val tableName = "Users";
             println(s"Dropping table $tableName..")
             stmt.execute("drop table IF EXISTS " + tableName);
@@ -46,7 +47,6 @@ object Login {
             sql = "select * from " + tableName;
             System.out.println("Running: " + sql);
             var res = stmt.executeQuery(sql);
-            System.out.println(res);
             /*
             while (res.next()) {
                 System.out.println(
@@ -74,7 +74,7 @@ object Login {
                     try {
                         println("Enter Username:");
                         loginInfo(0) = scala.io.StdIn.readLine();
-                        println("Enter Paswword:");
+                        println("Enter Password:");
                         loginInfo(1) = scala.io.StdIn.readLine();
                         println("Verifying...");
                         while(res.next()) { // Check if the user exists in the db
@@ -95,18 +95,54 @@ object Login {
                     }
                 }
                 else if(loginOption == 2) {
-                    var validEntry = false; 
+                    var validEntry = true;
+                    var lastId = 0;
+                    var newUser = " ";
+
+                    val user_file = new File("/tmp/users.csv");
+                    val user_source = Source.fromFile(user_file);
+                    val user_writer = new FileWriter(user_file, true);
+
                     do {
                         try {
+
+                            // To get back to the top of db
+                            sql = "select * from " + tableName;
+                            res = stmt.executeQuery(sql);
+
+                            validEntry = true;
+
                             println("Enter Username:")
                             loginInfo(0) = scala.io.StdIn.readLine();
-                            println("Enter Password:")
-                            loginInfo(1) = scala.io.StdIn.readLine();
-                            validEntry = true;
+                            while(res.next()) {
+                                if(loginInfo(0) == res.getString(2))
+                                    validEntry = false;
+                                lastId = res.getInt(1); // Saves the last id of the file for adding a new one
+                            }
+
+                            if(validEntry) {
+                                println("Enter Password:")
+                                loginInfo(1) = scala.io.StdIn.readLine();
+                                newUser = (lastId+1).toString + "," + loginInfo(0) + "," + loginInfo(1) + "," + "false\n"; // String to append
+                                println("New user added")
+                                user_writer.write(newUser);
+                                stmt.execute("drop table IF EXISTS " + tableName);
+                                stmt.execute("create table " + tableName + " (key int, username string, password string, admin boolean) row format delimited  fields terminated by ','");
+                                sql = "load data local inpath '" + filepath + "' into table " + tableName;
+                                stmt.execute(sql);
+                                println("Database updated");
+                            }
+                            else {
+                                println("Username has been taken. Try again!")
+                            }
 
                         }
                         catch {
                             case _: Throwable => println("Invalid");
+                        }
+                        finally { // Closing files
+                            user_source.close();
+                            user_writer.close();
                         }
 
 

@@ -10334,3 +10334,710 @@ java.lang.NullPointerException
 	at scala.Option.flatMap(Option.scala:271)
 	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
 
+Oct 29, 2021 4:19:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3400
+Oct 29, 2021 4:19:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3406
+Oct 29, 2021 4:19:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3413
+Oct 29, 2021 7:31:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3420
+[0m2021.10.29 19:31:50 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:31:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:31:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:31:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:31:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:31:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:31:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:32:44 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:32:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:32:52 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:32:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:32:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:32:57 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:32:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:32:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:32:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:32:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:04 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:33:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:33:04 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:33:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:33:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:06 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:33:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:33:07 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:33:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:33:10 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:33:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 7:33:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3469
+[0m2021.10.29 19:33:16 INFO  time: code lens generation in 1.77s[0m
+[0m2021.10.29 19:33:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:19 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:29 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:33:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:33:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:50 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:50 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:51 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:51 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:51 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:56 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:56 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:56 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:33:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:03 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:12 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:19 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:33 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:34:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:34:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:35 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:37 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:34:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:34:38 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:34:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:34:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:49 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 19:34:50 INFO  time: compiled root in 1.08s[0m
+[0m2021.10.29 19:34:52 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:34:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:34:52 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:34:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:34:57 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:34:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:34:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:34:57 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:34:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:34:59 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:34:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:35:00 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:35:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:35:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:03 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:09 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:09 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:35:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 135 is not a valid line number, allowed [0..134]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1554)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1553)
+	... 15 more
+
+[0m2021.10.29 19:35:11 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:35:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 135 is not a valid line number, allowed [0..134]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1554)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1553)
+	... 15 more
+
+Oct 29, 2021 7:35:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 135 is not a valid line number, allowed [0..134]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1554)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1553)
+	... 15 more
+
+[0m2021.10.29 19:35:12 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:12 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:35:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 135 is not a valid line number, allowed [0..134]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1554)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1553)
+	... 15 more
+
+Oct 29, 2021 7:35:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 135 is not a valid line number, allowed [0..134]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1554)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1553)
+	... 15 more
+
+Oct 29, 2021 7:35:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 135 is not a valid line number, allowed [0..134]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1554)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1553)
+	... 15 more
+
+[0m2021.10.29 19:35:17 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:17 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:17 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:28 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:35:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:35:28 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:35:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:35:29 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:36 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:36 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:35:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:35:38 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:39 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 19:35:39 INFO  time: compiled root in 0.92s[0m
+[0m2021.10.29 19:35:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:35:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:03 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:03 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:03 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:08 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:36:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:36:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:12 INFO  time: code lens generation in 1.11s[0m
+[0m2021.10.29 19:36:12 INFO  time: code lens generation in 1.08s[0m
+[0m2021.10.29 19:36:15 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 19:36:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:17 INFO  time: compiled root in 1.98s[0m
+[0m2021.10.29 19:36:19 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 19:36:21 INFO  time: compiled root in 1.72s[0m
+[0m2021.10.29 19:36:23 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:36:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:36:23 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:29 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:29 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:30 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:30 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:30 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:31 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:31 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:31 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:48 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:36:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:36:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:36:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:21 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:21 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:21 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:21 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:32 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 19:37:33 INFO  time: compiled root in 1.38s[0m
+[0m2021.10.29 19:37:33 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 19:37:33 INFO  time: compiled root in 0.84s[0m
+[0m2021.10.29 19:37:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:37:36 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 19:37:38 INFO  time: compiled root in 1.45s[0m
+[0m2021.10.29 19:37:38 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 19:37:39 INFO  time: compiled root in 1.05s[0m
+Oct 29, 2021 7:38:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4100
+[0m2021.10.29 19:38:18 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 19:38:18 INFO  time: compiled root in 0.97s[0m
+[0m2021.10.29 19:38:18 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 19:38:19 INFO  time: compiled root in 0.55s[0m
+Oct 29, 2021 7:38:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4147
+[0m2021.10.29 19:38:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:30 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:31 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:31 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:31 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:36 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:44 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:44 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:49 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:38:59 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:39:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:39:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:39:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:39:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:39:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:39:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:39:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:39:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:39:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.10.29 19:39:19 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.29 19:39:21 INFO  time: compiled root in 2.09s[0m
+[0m2021.10.29 19:39:21 WARN  unsupported Scala 2.11.8[0m
+Oct 29, 2021 7:39:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
