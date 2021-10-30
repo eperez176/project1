@@ -14,10 +14,12 @@ import java.sql.Statement;
 import java.sql.DriverManager;
 
 object Login {
-    def login(): Unit = {
+    def login(): Int = {
         var exit = false;
         var loginOption = 0;
         var validLogin = false;
+        var inside = false;
+        var isAdmin = false;
         var loginInfo = new Array[String](2); // Structure having username & pass
         var con: java.sql.Connection = null;
 
@@ -70,21 +72,23 @@ object Login {
 
                 if(loginOption == 1) { // Login
                     try {
-                        var inside = false;
-
                         println("Enter Username:");
                         loginInfo(0) = scala.io.StdIn.readLine();
                         println("Enter Paswword:");
                         loginInfo(1) = scala.io.StdIn.readLine();
                         println("Verifying...");
-                        while(res.next()) {
+                        while(res.next()) { // Check if the user exists in the db
                             if(loginInfo(0) == res.getString(2)) {
-                                if(loginInfo(1) == res.getString(3))
+                                if(loginInfo(1) == res.getString(3)) {
+                                    inside = true;
+                                    if(res.getBoolean(4))
+                                        isAdmin = true;
+                                }
                                     inside = true;
                             }
                         }
                         if(inside)
-                            println("Hello" + loginInfo(0));
+                            println("Hello " + loginInfo(0));
                     }
                     catch {
                         case _: Throwable => println("Invalid");
@@ -128,6 +132,14 @@ object Login {
                 }
             }
         }
+
+        if(isAdmin) {
+            return 2; // Admin User
+        }
+        else if(exit)
+            return 1; // Regular User
+        else
+            return 0; // Invalid User
     }
     
 
