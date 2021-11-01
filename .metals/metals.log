@@ -17360,3 +17360,1813 @@ No more data in the client stdin, exiting...
 No more data in the client stdin, exiting...
 No more data in the server stdin, exiting...
 [0m2021.10.31 19:59:12 INFO  time: code lens generation in 1.24s[0m
+[0m2021.11.01 11:44:50 INFO  Started: Metals version 0.10.8 in workspace 'C:\Users\eperez176\revature\project1' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.01 11:44:51 INFO  time: initialize in 1.66s[0m
+[0m2021.11.01 11:44:57 INFO  Attempting to connect to the build server...[0m
+[0m2021.11.01 11:44:58 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 15016'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:15016...
+The server is listening for incoming connections at tcp://127.0.0.1:15016...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.01 11:45:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\eperez176\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.11.01 11:45:02 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 31813'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:31813...
+The server is listening for incoming connections at tcp://127.0.0.1:31813...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.01 11:45:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\eperez176\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.11.01 11:45:05 INFO  time: Connected to build server in 8.44s[0m
+[0m2021.11.01 11:45:05 INFO  Connected to Build server: Bloop v1.4.10-8-8d1cbc4f[0m
+[0m2021.11.01 11:45:08 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.01 11:45:12 INFO  time: code lens generation in 12s[0m
+[0m2021.11.01 11:45:12 INFO  time: Imported build in 0.8s[0m
+[0m2021.11.01 11:45:14 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.01 11:45:19 INFO  time: code lens generation in 4.25s[0m
+[0m2021.11.01 11:45:19 INFO  time: code lens generation in 2.06s[0m
+[0m2021.11.01 11:45:19 INFO  time: code lens generation in 1.63s[0m
+[0m2021.11.01 11:45:19 INFO  time: code lens generation in 14s[0m
+[0m2021.11.01 11:45:19 INFO  time: code lens generation in 5.43s[0m
+[0m2021.11.01 11:45:21 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:24 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.11.01 11:45:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:29 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.11.01 11:45:31 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:31 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:33 INFO  time: indexed workspace in 20s[0m
+[0m2021.11.01 11:45:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:33 INFO  compiling root-test (1 scala source)[0m
+[0m2021.11.01 11:45:37 INFO  time: compiled root-test in 3.33s[0m
+[0m2021.11.01 11:45:38 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:49 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:49 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:45:59 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:45:59 INFO  time: compiled root in 0.9s[0m
+[0m2021.11.01 11:46:03 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:46:03 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:46:04 INFO  time: compiled root in 1.81s[0m
+[0m2021.11.01 11:46:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:46:09 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:46:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:17 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:19 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:21 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:25 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:47:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:27 INFO  time: compiled root in 2.66s[0m
+[0m2021.11.01 11:47:32 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:32 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:32 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:32 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:35 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:47:48 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:47:51 INFO  time: compiled root in 3.24s[0m
+[0m2021.11.01 11:48:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:48:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:08 INFO  compiling root (1 scala source)[0m
+Nov 01, 2021 11:50:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 281
+[0m2021.11.01 11:50:10 INFO  time: compiled root in 1.55s[0m
+[0m2021.11.01 11:50:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:12 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:12 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:13 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 11:50:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 325
+[0m2021.11.01 11:50:25 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 11:50:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 336
+[0m2021.11.01 11:50:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:38 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:38 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:50:46 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 11:50:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 430
+[0m2021.11.01 11:50:58 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 11:50:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 440
+[0m2021.11.01 11:51:01 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:09 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:21 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:23 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:31 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 11:51:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 11:51:31 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 11:51:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 11:51:32 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 11:51:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 11:51:32 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 11:51:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 11:51:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:38 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:56 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:51:59 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:01 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:03 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:03 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:12 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:12 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:12 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:12 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:17 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:17 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:17 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:21 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:21 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:21 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:23 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:52:27 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:52:31 INFO  time: compiled root in 3.87s[0m
+[0m2021.11.01 11:52:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:53:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:53:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:53:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:53:10 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:53:11 INFO  time: compiled root in 1.17s[0m
+[0m2021.11.01 11:53:36 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 11:53:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 11:53:36 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:53:37 INFO  time: compiled root in 1.09s[0m
+Nov 01, 2021 11:53:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 829
+[0m2021.11.01 11:53:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:53:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:53:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:53:44 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:53:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:53:50 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:53:53 INFO  time: compiled root in 2.65s[0m
+Nov 01, 2021 11:54:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 856
+[0m2021.11.01 11:54:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:54:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:54:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:54:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:54:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:54:14 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:54:14 INFO  time: compiled root in 0.57s[0m
+[0m2021.11.01 11:54:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:54:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:54:21 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:54:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:54:27 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:54:28 INFO  time: compiled root in 1.19s[0m
+[0m2021.11.01 11:54:39 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:54:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:54:40 INFO  time: compiled root in 1.21s[0m
+[0m2021.11.01 11:54:40 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 11:54:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 913
+[0m2021.11.01 11:54:43 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 11:54:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 11:54:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:54:47 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:54:50 INFO  time: compiled root in 2.55s[0m
+[0m2021.11.01 11:54:50 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:54:50 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:54:50 ERROR code navigation does not work for the file 'C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.6 or 3.1.0.[0m
+[0m2021.11.01 11:54:51 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:54:52 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:54:54 INFO  time: compiled root in 2.59s[0m
+[0m2021.11.01 11:55:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:55:49 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:55:50 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:55:52 INFO  time: compiled root in 2.11s[0m
+[0m2021.11.01 11:56:08 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:56:11 INFO  time: compiled root in 2.49s[0m
+[0m2021.11.01 11:56:56 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:56:56 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:56:56 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:56:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:56:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:56:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:56:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:00 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:57:02 INFO  time: compiled root in 1.76s[0m
+[0m2021.11.01 11:57:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:20 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:57:21 INFO  time: compiled root in 1.79s[0m
+[0m2021.11.01 11:57:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:36 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:38 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:49 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:57:51 INFO  time: compiled root in 2.12s[0m
+[0m2021.11.01 11:57:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:57:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:01 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:01 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:09 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:09 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:09 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:13 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:58:15 INFO  time: compiled root in 2.1s[0m
+[0m2021.11.01 11:58:31 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:44 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:58:56 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:58:58 INFO  time: compiled root in 1.99s[0m
+[0m2021.11.01 11:59:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:23 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:23 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:23 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 11:59:29 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 11:59:31 INFO  time: compiled root in 1.82s[0m
+[0m2021.11.01 12:00:35 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:00:35 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:00:36 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:00:36 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:00:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:00:43 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:00:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:00:43 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:00:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:00:44 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:00:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:00:44 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:00:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:00:52 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:00:55 INFO  time: compiled root in 2.26s[0m
+[0m2021.11.01 12:01:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:12 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:01:14 INFO  time: compiled root in 1.67s[0m
+[0m2021.11.01 12:01:30 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:32 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:35 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:38 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:44 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:44 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:44 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:47 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:47 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:47 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:47 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:47 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:49 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:51 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:51 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:51 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:01:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:01 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:01 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:01 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:01 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:03 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:04 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:02:06 INFO  time: compiled root in 2.29s[0m
+[0m2021.11.01 12:02:32 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:38 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:38 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:38 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:38 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:44 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:44 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:47 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:02:47 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:02:49 INFO  time: compiled root in 2.75s[0m
+[0m2021.11.01 12:03:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:09 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:12 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:12 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:12 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:13 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:03:15 INFO  time: compiled root in 1.37s[0m
+[0m2021.11.01 12:03:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:24 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:03:24 INFO  time: compiled root in 0.78s[0m
+[0m2021.11.01 12:03:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:30 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:03:32 INFO  time: compiled root in 1.71s[0m
+[0m2021.11.01 12:03:38 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:03:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:03:40 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:03:41 INFO  time: compiled root in 1.7s[0m
+[0m2021.11.01 12:03:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:03:58 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:04:00 INFO  time: compiled root in 2.11s[0m
+[0m2021.11.01 12:04:09 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:04:10 INFO  time: compiled root in 1.58s[0m
+[0m2021.11.01 12:04:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:05:24 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:05:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:05:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:05:25 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:05:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Nov 01, 2021 12:05:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:06:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:30 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:39 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:06:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:06:44 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:47 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:47 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:50 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:06:52 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:06:55 INFO  time: compiled root in 3.35s[0m
+[0m2021.11.01 12:07:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:09 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:21 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:23 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:24 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:07:24 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:07:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:07:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:28 INFO  time: compiled root in 4s[0m
+[0m2021.11.01 12:07:29 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:29 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:07:30 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:07:35 INFO  time: compiled root in 4.91s[0m
+[0m2021.11.01 12:07:55 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:07:57 INFO  time: compiled root in 2.25s[0m
+[0m2021.11.01 12:08:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:09 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:16 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:08:19 INFO  time: compiled root in 2.43s[0m
+[0m2021.11.01 12:08:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:08:58 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:09:01 INFO  time: compiled root in 3.02s[0m
+[0m2021.11.01 12:09:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:17 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:17 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:19 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:20 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:09:21 INFO  time: compiled root in 1.07s[0m
+[0m2021.11.01 12:09:27 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:09:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:09:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:29 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:30 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:31 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:09:32 INFO  time: compiled root in 1.03s[0m
+[0m2021.11.01 12:09:32 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:32 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:35 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:56 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:56 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:09:58 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:10:00 INFO  time: compiled root in 2.46s[0m
+[0m2021.11.01 12:10:15 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:10:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:10:19 ERROR code navigation does not work for the file 'C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.6 or 3.1.0.[0m
+[0m2021.11.01 12:10:19 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:19 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:10:21 INFO  time: compiled root in 2.05s[0m
+[0m2021.11.01 12:10:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:30 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:35 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:38 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:39 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:10:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:42 INFO  time: compiled root in 2.99s[0m
+[0m2021.11.01 12:10:55 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:10:56 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:10:57 INFO  time: compiled root in 1.78s[0m
+[0m2021.11.01 12:11:01 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:11:01 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -30
+[0m2021.11.01 12:11:03 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:11:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:11:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:11:07 INFO  time: compiled root in 3.91s[0m
+[0m2021.11.01 12:11:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:11:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:11:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:11:10 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:11:13 INFO  time: compiled root in 2.95s[0m
+[0m2021.11.01 12:13:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:13:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:13:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:13:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:13:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:13:22 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:13:25 INFO  time: compiled root in 3.1s[0m
+[0m2021.11.01 12:14:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:14:05 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:14:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:14:08 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:14:11 INFO  time: compiled root in 2.72s[0m
+[0m2021.11.01 12:14:23 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:14:23 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:14:25 INFO  time: compiled root in 2.2s[0m
+[0m2021.11.01 12:14:32 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:14:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:14:35 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:14:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:14:38 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:14:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:14:41 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:13: stale bloop warning: comparing values of types Char and String using `==' will always yield false
+    println(check(14) == "\n")
+            ^^^^^^^^^^^^^^^^^[0m
+[0m2021.11.01 12:14:41 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:13: stale bloop warning: comparing values of types Char and String using `==' will always yield false
+    println(check(14) == "\n")
+            ^^^^^^^^^^^^^^^^^[0m
+[0m2021.11.01 12:14:41 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:13: stale bloop warning: comparing values of types Char and String using `==' will always yield false
+    println(check(14) == "\n")
+            ^^^^^^^^^^^^^^^^^[0m
+[0m2021.11.01 12:14:41 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:13: stale bloop warning: comparing values of types Char and String using `==' will always yield false
+    println(check(14) == "\n")
+            ^^^^^^^^^^^^^^^^^[0m
+[0m2021.11.01 12:14:44 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:13: stale bloop warning: comparing values of types Char and String using `==' will always yield false
+    println(check(14) == "\n")
+            ^^^^^^^^^^^^^^^^^[0m
+[0m2021.11.01 12:14:44 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:13: stale bloop warning: comparing values of types Char and String using `==' will always yield false
+    println(check(14) == "\n")
+            ^^^^^^^^^^^^^^^^^[0m
+[0m2021.11.01 12:14:45 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:14:47 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:14:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:14:48 INFO  time: compiled root in 2.46s[0m
+[0m2021.11.01 12:14:48 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:14:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:14:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:14:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:14:58 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:14:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:15:01 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:15:01 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:15:03 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:15:07 INFO  time: compiled root in 3.35s[0m
+[0m2021.11.01 12:16:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:16:36 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:16:36 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '
+                         ^[0m
+[0m2021.11.01 12:16:36 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '
+                         ^[0m
+[0m2021.11.01 12:16:36 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:19:5: stale bloop error: unclosed character literal
+    ')
+    ^[0m
+[0m2021.11.01 12:16:36 INFO  time: compiled root in 0.81s[0m
+[0m2021.11.01 12:16:39 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '
+                         ^[0m
+[0m2021.11.01 12:16:39 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:19:5: stale bloop error: unclosed character literal
+    ')
+    ^[0m
+[0m2021.11.01 12:16:39 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '
+                         ^[0m
+[0m2021.11.01 12:16:39 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:19:5: stale bloop error: unclosed character literal
+    ')
+    ^[0m
+[0m2021.11.01 12:16:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:16:42 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '
+                         ^[0m
+[0m2021.11.01 12:16:42 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:19:5: stale bloop error: unclosed character literal
+    ')
+    ^[0m
+[0m2021.11.01 12:16:42 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:16:42 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '
+                         ^[0m
+[0m2021.11.01 12:16:42 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '
+                         ^[0m
+[0m2021.11.01 12:16:42 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:19:5: stale bloop error: unclosed character literal
+    ');
+    ^[0m
+[0m2021.11.01 12:16:42 INFO  time: compiled root in 0.89s[0m
+[0m2021.11.01 12:16:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:16:47 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:16:47 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:16:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:16:48 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '
+                         ^[0m
+[0m2021.11.01 12:16:48 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:19:5: stale bloop error: unclosed character literal
+    ');
+    ^[0m
+[0m2021.11.01 12:16:49 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '
+                         ^[0m
+[0m2021.11.01 12:16:49 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:19:5: stale bloop error: unclosed character literal
+    ');
+    ^[0m
+[0m2021.11.01 12:16:49 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '
+                         ^[0m
+[0m2021.11.01 12:16:49 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:19:5: stale bloop error: unclosed character literal
+    ');
+    ^[0m
+[0m2021.11.01 12:16:49 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '
+                         ^[0m
+[0m2021.11.01 12:16:49 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:19:5: stale bloop error: unclosed character literal
+    ');
+    ^[0m
+[0m2021.11.01 12:16:50 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '
+                         ^[0m
+[0m2021.11.01 12:16:50 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:19:5: stale bloop error: unclosed character literal
+    ');
+    ^[0m
+[0m2021.11.01 12:16:51 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:16:52 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '');
+                         ^[0m
+[0m2021.11.01 12:16:52 INFO  time: compiled root in 1.14s[0m
+[0m2021.11.01 12:16:52 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '');
+                         ^[0m
+[0m2021.11.01 12:16:52 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:18:26: stale bloop error: unclosed character literal
+    println(check(14) == '');
+                         ^[0m
+[0m2021.11.01 12:19:25 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:19:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:19:25 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:19:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:19:27 INFO  time: compiled root in 2.08s[0m
+[0m2021.11.01 12:19:29 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:19:33 INFO  time: compiled root in 3.36s[0m
+[0m2021.11.01 12:20:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:15 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:15 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:15 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:17 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:20:18 INFO  time: compiled root in 1.54s[0m
+[0m2021.11.01 12:20:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:23 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:23 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:23 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:29 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:29 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:20:31 INFO  time: compiled root in 1.94s[0m
+[0m2021.11.01 12:20:50 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:51 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:20:54 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:20:56 INFO  time: compiled root in 1.84s[0m
+[0m2021.11.01 12:21:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:21:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:21:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:21:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:21:15 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:21:15 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:21:15 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:21:15 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:21:15 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:21:17 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:21:17 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:21:18 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:21:20 INFO  time: compiled root in 2.18s[0m
+[0m2021.11.01 12:21:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:21:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:21:36 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:21:36 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:21:37 INFO  time: compiled root in 1.15s[0m
+Nov 01, 2021 12:21:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2930
+[0m2021.11.01 12:21:51 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:21:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:21:51 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:21:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:22:09 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:22:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:22:16 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:22:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:22:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:22:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:22:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:22:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:22:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:22:27 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:22:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:22:30 INFO  time: compiled root in 3.37s[0m
+[0m2021.11.01 12:23:29 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:23:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:06 WARN  no build target for: C:\Users\eperez176\revature\project0\src\main\scala\login\newLogin.scala[0m
+[0m2021.11.01 12:25:09 WARN  no build target for: C:\Users\eperez176\revature\project0\src\main\scala\login\login.scala[0m
+Nov 01, 2021 12:25:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3016
+[0m2021.11.01 12:25:10 INFO  time: code lens generation in 1.35s[0m
+[0m2021.11.01 12:25:10 INFO  time: code lens generation in 3.87s[0m
+[0m2021.11.01 12:25:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:32 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:32 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:32 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:44 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:46 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:25:48 INFO  time: compiled root in 1.96s[0m
+[0m2021.11.01 12:25:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:56 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:56 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:56 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:59 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:25:59 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:26:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:26:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:26:02 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:26:04 INFO  time: compiled root in 1.89s[0m
+[0m2021.11.01 12:26:34 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:26:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:26:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:26:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:26:35 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:26:36 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:26:37 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:26:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:26:38 INFO  time: compiled root in 1.58s[0m
+[0m2021.11.01 12:27:31 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:27:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:27:36 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:27:36 ERROR code navigation does not work for the file 'C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.6 or 3.1.0.[0m
+[0m2021.11.01 12:27:36 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:27:41 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:27:46 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:27:49 INFO  time: compiled root in 2.08s[0m
+[0m2021.11.01 12:28:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:28:21 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:28:25 INFO  time: compiled root in 3.52s[0m
+[0m2021.11.01 12:28:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:28:48 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:28:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:28:50 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:28:50 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:28:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Nov 01, 2021 12:28:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:29:25 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:29:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:27 INFO  time: compiled root in 2.14s[0m
+[0m2021.11.01 12:29:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:29 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:29:29 INFO  time: compiled root in 0.64s[0m
+[0m2021.11.01 12:29:31 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:31 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:31 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:31 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:42 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:19:26: stale bloop error: not found: value out
+        old_writer.write(out);
+                         ^^^[0m
+[0m2021.11.01 12:29:42 INFO  C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala:19:26: stale bloop error: not found: value out
+        old_writer.write(out);
+                         ^^^[0m
+[0m2021.11.01 12:29:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:45 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:29:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:29:47 INFO  time: compiled root in 1.85s[0m
+[0m2021.11.01 12:31:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:20 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:20 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:31:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:31:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:23 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:29 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:33 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:31:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:31:35 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:36 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:36 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:47 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:31:58 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:32:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:32:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:32:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:32:03 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:32:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:32:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:32:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:32:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:32:10 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:32:12 INFO  time: compiled root in 2.48s[0m
+[0m2021.11.01 12:32:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:32:44 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:32:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:32:56 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:32:57 INFO  time: compiled root in 1.71s[0m
+[0m2021.11.01 12:33:50 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:33:50 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:33:50 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:33:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:33:54 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:01 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:01 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:01 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:10 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:17 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:20 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:34:20 INFO  time: compiled root in 0.98s[0m
+[0m2021.11.01 12:34:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:27 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:34:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:30 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:34:31 INFO  time: compiled root in 3.74s[0m
+[0m2021.11.01 12:40:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:40:47 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:40:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:40:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:40:48 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:40:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:40:50 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:40:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:40:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:40:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:40:56 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:40:59 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:40:59 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:40:59 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:03 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:03 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:04 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:07 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:09 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:26 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:28 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:29 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:33 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:35 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:35 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:35 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:53 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:41:57 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:17 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:19 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:19 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:21 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:21 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:30 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:42:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:42:32 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:32 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:34 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:49 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:49 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:49 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:52 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:55 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:59 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:42:59 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:02 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:03 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:07 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:43:08 INFO  time: compiled root in 1.03s[0m
+[0m2021.11.01 12:43:11 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:11 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:43:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:43:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:14 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:43:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:43:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:16 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:17 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:43:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:43:19 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:19 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:19 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:21 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:43:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:43:21 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:43:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:43:21 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:43:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:43:22 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:22 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:43:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Nov 01, 2021 12:43:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:43:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:25 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:43:31 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:43:35 INFO  time: compiled root in 4.47s[0m
+[0m2021.11.01 12:43:36 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:44:08 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:44:11 INFO  time: compiled root in 2.57s[0m
+[0m2021.11.01 12:45:36 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:45:36 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:45:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4354
+[0m2021.11.01 12:45:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:45:43 INFO  compiling root (1 scala source)[0m
+Nov 01, 2021 12:45:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4367
+[0m2021.11.01 12:45:44 INFO  time: compiled root in 1.58s[0m
+[0m2021.11.01 12:45:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:45:45 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:45:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:45:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:45:46 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:45:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:45:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:45:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:45:48 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:45:48 INFO  time: compiled root in 0.94s[0m
+Nov 01, 2021 12:48:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4400
+[0m2021.11.01 12:48:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:15 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:15 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:17 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:48:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:48:17 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:48:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:48:18 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:18 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:48:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Nov 01, 2021 12:48:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:48:18 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:48:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:48:20 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:48:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:48:27 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:48:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:48:27 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:48:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:48:29 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:48:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:48:30 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:48:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:48:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:40 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:48:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:48:40 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:48:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.01 12:48:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:42 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:43 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:48 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:50 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:50 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:51 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:51 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:59 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:48:59 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:05 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:08 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:23 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:24 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:27 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:32 WARN  no build target for: C:\Users\eperez176\revature\Oct2021ScalaBatch\scalahive\src\main\scala\example\HiveClient.scala[0m
+Nov 01, 2021 12:49:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4454
+[0m2021.11.01 12:49:34 INFO  time: code lens generation in 1.8s[0m
+Nov 01, 2021 12:49:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4459
+[0m2021.11.01 12:49:37 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:38 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:38 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:39 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:40 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:49:42 WARN  unsupported Scala 2.11.8[0m
+Nov 01, 2021 12:49:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Nov 01, 2021 12:49:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4479
+Nov 01, 2021 12:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4488
+[0m2021.11.01 12:50:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:50:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:50:00 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.01 12:50:01 INFO  compiling root (1 scala source)[0m
+[0m2021.11.01 12:50:03 INFO  time: compiled root in 2.52s[0m

@@ -245,34 +245,32 @@ object Login {
                             if(res.getString(2) == oldUsername)
                                 currentID = res.getInt(1);
                         }
-                        var out = currentID.toString() + "," + newUsername + "," + newPass + ",false\n";
+                        var out = currentID.toString() + "," + newUsername + "," + newPass + ",false\r";
+                        println(out);
 
                         val user_file = new File("/tmp/users.csv");
-                        val new_user_file = new File("/tmp/newUsers.csv");
                         val user_source = Source.fromFile(user_file);
-                        val new_user_source = Source.fromFile(new_user_file);
-                        val user_writer = new FileWriter(new_user_file, true);
-                        val old_writer = new FileWriter(user_file, true);
-
+                        val oldFile = user_source.mkString.split("\r");
+                        var old_writer = new FileWriter(user_file, false);
+                        old_writer.close();
+                        old_writer = new FileWriter(user_file, true);
+                        println("Current ID: " + currentID.toString())
                         try {
-                            for(line <- user_source.getLines()) {
-                                val lineSplit = line.split(",");
-                                if(lineSplit(0).toInt != currentID) {
-                                    user_writer.write(line);
-                                }
-                                else {
-                                    user_writer.write(out);
-                                }
-
+                            for(line <- oldFile) {
+                                var lineSplit = line.split(",");
+                                println(lineSplit(0));
+                                var newL = line + "\n";
+                                if(lineSplit(0).toInt != currentID)
+                                    old_writer.write(newL);
+                                else
+                                    old_writer.write(out);
                             }
                         }
                         catch {
-                            case _ : Throwable => println("Error");
+                            case ex : Throwable => ex.printStackTrace();
                         }
                         finally { // Close everything
                             user_source.close();
-                            new_user_source.close();
-                            user_writer.close();
                             old_writer.close();
                         }
 
