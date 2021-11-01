@@ -247,10 +247,34 @@ object Login {
                         }
                         var out = currentID.toString() + "," + newUsername + "," + newPass + ",false\n";
 
-                        
                         val user_file = new File("/tmp/users.csv");
+                        val new_user_file = new File("/tmp/newUsers.csv");
                         val user_source = Source.fromFile(user_file);
-                        val user_writer = new FileWriter(user_file, true);
+                        val new_user_source = Source.fromFile(new_user_file);
+                        val user_writer = new FileWriter(new_user_file, true);
+                        val old_writer = new FileWriter(user_file, true);
+
+                        try {
+                            for(line <- user_source.getLines()) {
+                                val lineSplit = line.split(",");
+                                if(lineSplit(0).toInt != currentID) {
+                                    user_writer.write(line);
+                                }
+                                else {
+                                    user_writer.write(out);
+                                }
+
+                            }
+                        }
+                        catch {
+                            case _ : Throwable => println("Error");
+                        }
+                        finally { // Close everything
+                            user_source.close();
+                            new_user_source.close();
+                            user_writer.close();
+                            old_writer.close();
+                        }
 
                     }
                 }

@@ -16,7 +16,10 @@ object Main extends App {
 
     do {
       if(userType == 1 || userType == 2) {
-        Login.updateLogin();
+        println("To change username/password (1)")
+        var options = scala.io.StdIn.readInt();
+        if(options == 1)
+          Login.updateLogin();
         
       }
       else {
