@@ -7,25 +7,34 @@ import org.mongodb.scala._;
 import scala.io.StdIn.readLine;
 
 object Main extends App {
-  var userType = 0;
   var exit = false;
+  var exitMain = false;
 
-  while ( 1 == 1 ) {
+  while (!exitMain) {
 
-    userType = Login.login();
+    var userInfo = Login.login(); // Contains user's ID and admin status
 
     do {
-      if(userType == 1 || userType == 2) {
-        println("To change username/password (1)")
+      if(userInfo._2 == 1 || userInfo._2 == 2) {
+        println("To change username/password (1)");
+        println("To print user's info (6)")
+        println("To exit (10)")
         var options = scala.io.StdIn.readInt();
         if(options == 1)
-          Login.updateLogin();
+          Login.updateLogin(userInfo._1);
+        else if(options == 10){
+          exit = true;
+          exitMain = true;
+        }
+        else if(options == 6)
+          Login.userInfo(userInfo._1);
         
       }
       else {
         println("FAIL")
       }
     } while(!exit)
+    println("Good bye!\n")
   }
 }
 

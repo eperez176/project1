@@ -14,7 +14,7 @@ import java.sql.Statement;
 import java.sql.DriverManager;
 
 object Login {
-    def login(): Int = {
+    def login(): (Int, Int) = {
         var exit = false;
         var loginOption = 0;
         var validLogin = false;
@@ -22,6 +22,8 @@ object Login {
         var isAdmin = false;
         var loginInfo = new Array[String](2); // Structure having username & pass
         var con: java.sql.Connection = null;
+
+        var currentID = -1;
 
         try {
             var driverName = "org.apache.hive.jdbc.HiveDriver"
@@ -45,7 +47,6 @@ object Login {
             stmt.execute(sql);
 
             sql = "select * from " + tableName;
-            System.out.println("Running: " + sql);
             var res = stmt.executeQuery(sql);
 
             do {
@@ -82,6 +83,7 @@ object Login {
                             if(loginInfo(0) == res.getString(2)) {
                                 if(loginInfo(1) == res.getString(3)) {
                                     inside = true;
+                                    currentID = res.getInt(1);
                                     if(res.getBoolean(4)) // Check for the user is admin
                                         isAdmin = true;
                                 }
@@ -126,6 +128,8 @@ object Login {
                                 println("Enter Password:")
                                 loginInfo(1) = scala.io.StdIn.readLine();
                                 newUser = (lastId+1).toString + "," + loginInfo(0) + "," + loginInfo(1) + "," + "false\n"; // String to append
+                                currentID = lastId + 1;
+                                isAdmin = false;
                                 println(newUser);
                                 user_writer.write(newUser);
                                 stmt.execute("drop table IF EXISTS " + tableName);
@@ -173,15 +177,15 @@ object Login {
         }
 
         if(isAdmin) {
-            return 2; // Admin User
+            return (currentID, 2); // Admin User
         }
         else if(exit)
-            return 1; // Regular User
+            return (currentID, 1); // Regular User
         else
-            return 0; // Invalid User
+            return (currentID, 0); // Invalid User
     }
     
-    def updateLogin(): Unit = {
+    def updateLogin(currentID: Int): Unit = {
         var option = 0;
         var validOption = false;
         var con: java.sql.Connection = null;
@@ -189,7 +193,6 @@ object Login {
 
         var newUsername = "";
         var newPass = "";
-        var currentID = 0;
 
         var driverName = "org.apache.hive.jdbc.HiveDriver"
         val conStr = "jdbc:hive2://sandbox-hdp.hortonworks.com:10000/default";
@@ -204,18 +207,16 @@ object Login {
 
                 option = scala.io.StdIn.readInt();
                 if(option > 0 && option < 4) { // Valid options
-                    println("Please enter your username:");
-                    var oldUsername = scala.io.StdIn.readLine();
                     if(option != 2) { // Option 2 not allowed
                         var validUsername = true;
-                        
                         do {
-                            println("What username would you like to have: ")
+                            validUsername = true; // Reset
+                            println("\nWhat username would you like to have: ")
                             newUsername = scala.io.StdIn.readLine();
                             var sql = "select * from " + tableName;
                             var res = stmt.executeQuery(sql);
-                            while(res.next()) {
-                                if(newUsername == res.getString(1))
+                            while(res.next()) { // Checks if the username is unique
+                                if(newUsername == res.getString(2))
                                     validUsername = false;
                             }
                             if(!validUsername)
@@ -223,9 +224,25 @@ object Login {
                         } while(!validUsername)
                         validOption = true;
                     }
+                    if(option== 2) {
+                        var sql = "select * from " + tableName;
+                        var res = stmt.executeQuery(sql);
+                            while(res.next()) { // Grab old password using same username
+                                if(currentID == res.getInt(1))
+                                    newUsername = res.getString(2);
+                            }
+                    }
                     if(option != 1) { // Option 1 not allowed
-                        println("What password would you like to have: ");
+                        println("\nWhat password would you like to have: ");
                         newPass = scala.io.StdIn.readLine();
+                    }
+                    else if (option == 1) { // In case of option 4
+                        var sql = "select * from " + tableName;
+                        var res = stmt.executeQuery(sql);
+                            while(res.next()) { // Grab old password using user's ID
+                                if(currentID == res.getInt(1))
+                                    newPass = res.getString(3);
+                            }
                     }
 
                     println("Are you sure? (Y) or (N)");
@@ -238,31 +255,23 @@ object Login {
                         case _: Throwable => println("Invalid entry. Assuming no.")
                     }
                     if(checkOp == 'Y') {
-                        var sql = "select * from " + tableName;
-                        var res = stmt.executeQuery(sql);
-                        
-                        while(res.next()) {
-                            if(res.getString(2) == oldUsername)
-                                currentID = res.getInt(1);
-                        }
-                        var out = currentID.toString() + "," + newUsername + "," + newPass + ",false\r";
-                        println(out);
+                        var out = currentID.toString() + "," + newUsername + "," + newPass + ",false\n";
 
                         val user_file = new File("/tmp/users.csv");
                         val user_source = Source.fromFile(user_file);
-                        val oldFile = user_source.mkString.split("\r");
+                        val oldFile = user_source.mkString.split("\n");
                         var old_writer = new FileWriter(user_file, false);
+
+                        var lineSplit = "";
                         old_writer.close();
                         old_writer = new FileWriter(user_file, true);
-                        println("Current ID: " + currentID.toString())
                         try {
-                            for(line <- oldFile) {
-                                var lineSplit = line.split(",");
-                                println(lineSplit(0));
-                                var newL = line + "\n";
-                                if(lineSplit(0).toInt != currentID)
+                            for (i <- 0 until oldFile.length) {
+                                lineSplit = oldFile(i).split(",").head;
+                                var newL = oldFile(i) + "\n";
+                                if(lineSplit.toInt != currentID) // If given incorrect username
                                     old_writer.write(newL);
-                                else
+                                else    
                                     old_writer.write(out);
                             }
                         }
@@ -274,6 +283,15 @@ object Login {
                             old_writer.close();
                         }
 
+                        // Reload the table
+                        println("\nUpdating...")
+                        val tableName = "Users";
+                        stmt.execute("drop table IF EXISTS " + tableName);
+                        stmt.execute("create table " + tableName + " (key int, username string, password string, admin boolean) row format delimited  fields terminated by ','");
+                        val filepath = "/tmp/users.csv";
+                        var sql = "load data local inpath '" + filepath + "' into table " + tableName;
+                        stmt.execute(sql);
+                        println("Done. Exiting...\n")
                     }
                 }
                 else if(option == 4) { // Nothing changes, exit
@@ -287,8 +305,60 @@ object Login {
             catch {
                 case _ : Throwable => println("Invalid Entry. Try again\n");
             }
-
+            finally {
+                try { // Closing client
+                    if (con != null)
+                        con.close();
+                } catch {
+                    case ex : Throwable =>  {
+                        ex.printStackTrace();
+                        throw new Exception(s"${ex.getMessage}")
+                    }
+                }
+            }
         } while(!validOption)
+    }
+
+    def userInfo(currentID: Int): Unit = { // Prints user's info
+        var con: java.sql.Connection = null;
+        val tableName = "Users";
+
+        var driverName = "org.apache.hive.jdbc.HiveDriver"
+        val conStr = "jdbc:hive2://sandbox-hdp.hortonworks.com:10000/default";
+        try {
+            Class.forName(driverName);
+            con = DriverManager.getConnection(conStr, "", "");
+            val stmt = con.createStatement();
+            println(currentID)
+            var sql = "select * from " + tableName;
+            var res = stmt.executeQuery(sql);
+            while(res.next()) {
+                if(res.getInt(1) == currentID) {
+                    println("User's Info")
+                    println("User ID: " + res.getString(1));
+                    println("Username: " + res.getString(2));
+                    println("Password: " + res.getString(3));
+                    println("Admin: : " + res.getString(4));
+                    println;
+                }
+            }
+
+
+        }
+        catch {
+            case ex: Throwable => ex.printStackTrace();
+        }
+        finally {
+            try { // Closing client
+                    if (con != null)
+                        con.close();
+                } catch {
+                    case ex : Throwable =>  {
+                        ex.printStackTrace();
+                        throw new Exception(s"${ex.getMessage}")
+                    }
+                }
+        }
     }
 
 }
