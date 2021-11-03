@@ -12,7 +12,7 @@ import scala.collection.mutable.Stack
 object test extends App {
     println("testing...");
     val apiKey = 40130162;
-    val url = "https://www.thesportsdb.com/api/v1/json/1/eventspastleague.php?id=4328";
+    val url = "https://www.thesportsdb.com/api/v1/json/1/lookupcontracts.php?id=34147178";
     val result = scala.io.Source.fromURL(url).mkString;
     
     var N = 0;
