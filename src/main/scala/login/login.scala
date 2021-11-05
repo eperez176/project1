@@ -42,7 +42,7 @@ object Login {
             stmt.execute("create table " + tableName + " (key int, username string, password string, admin boolean) row format delimited  fields terminated by ','");
 
             val filepath = "/tmp/users.csv";
-            var sql = "load data local inpath '" + filepath + "' into table " + tableName;
+            var sql = "load local data inpath '" + filepath + "' into table " + tableName;
             System.out.println("Running: " + sql);
             stmt.execute(sql);
 

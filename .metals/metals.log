@@ -32505,3 +32505,30 @@ Caused by: java.lang.InterruptedException
 	... 10 more
 
 [0m2021.11.02 22:32:55 INFO  time: compiled root in 3.2s[0m
+[0m2021.11.02 22:36:10 WARN  unsupported Scala 2.11.8[0m
+Nov 02, 2021 10:36:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.02 22:36:10 WARN  unsupported Scala 2.11.8[0m
+Nov 02, 2021 10:36:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.02 22:36:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.02 22:36:13 ERROR code navigation does not work for the file 'C:\Users\eperez176\revature\project1\src\main\scala\example\test.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.15 or 2.13.6 or 3.1.0.[0m
+[0m2021.11.02 22:36:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.02 22:36:13 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.02 22:36:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.02 22:36:15 INFO  compiling root (1 scala source)[0m
+[0m2021.11.02 22:36:19 INFO  time: compiled root in 3.66s[0m

@@ -12,7 +12,7 @@ import scala.collection.mutable.Stack
 object test extends App {
     println("testing...");
     val apiKey = 40130162;
-    val url = "https://www.thesportsdb.com/api/v1/json/1/lookupcontracts.php?id=34147178";
+    val url = "https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=4346";
     val result = scala.io.Source.fromURL(url).mkString;
     
     var N = 0;
@@ -55,49 +55,77 @@ object test extends App {
             unitedS = unitedS + line;
     }   
     println("\nThe Semi Parsed Input: \n" + unitedS);
+    for(i <- 0 until 10) {
+        unitedS = unitedS.replace(","+i.toString(), "."+i.toString());
+    }
+    unitedS = unitedS.replace("["," ");
 
     if(A.size > 2)
-        B = unitedS.replace(dQ.toString, "").replace("}", "").replace("]", "").replace("https:" + fowardL + backL + fowardL + backL, "").replace(fowardL.toString, "").replace(", ", ". ").split("#");
+        B = unitedS.replace(dQ.toString, "").replace("}", "").replace("]", "").replace("https:" + fowardL + backL + fowardL + backL, "").replace(fowardL.toString, "").replace(", ", ". ").replace("rnrn", " ").split("#");
         //println(unitedS.replace(dQ.toString, "").replace("}", "").replace("]", ""))
     else
-        B(1) = unitedS.replace(dQ.toString, "").replace("}", "").replace("]", "").replace("https:" + fowardL + backL + fowardL + backL, "").replace(fowardL.toString, "").replace(", ", ". ");
+        B(1) = unitedS.replace(dQ.toString, "").replace("}", "").replace("]", "").replace("https:" + fowardL + backL + fowardL + backL, "").replace(fowardL.toString, "").replace(", ", ". ").replace("rnrn", " ");
 
-    println("\nSecond Parsed Data: ")
+    println("\nSecond Parsed Data:\n")
     B.foreach(println)
     println
+    //println("BB: " + B(1))
     var C = Array.ofDim[String](B.length, B(1).split(",").length)
     if(A.size > 2) {
         for(i <- 0 until B.length) { // Array having of record into several fields
-            C(i) = B(i).split(",")
+            if(B(1).split(",").length == B(i).count(x => x == ','))
+                C(i) = B(i).split(",")
+            else {
+                C(i) = B(i).replace(",","*").replace("*str", ",str").replace("*id",",id").replace("*date",",date").replace("*int",",int").split(",")
+            }
         }
     }
     else {
         C(1) = B(1).split(",")
     }
-    var D = Array.ofDim[String](2, C(1).length)
+    var dLen = 0;
+    if(C(1).length > C(0).length)
+        dLen = C(1).length
+    else
+        dLen = C(0).length
+    var D = Array.ofDim[String](2, dLen)
+
     var out = "";
     var out2 = "";
 
-    println("\nPARSED DATA:")
+    println("\nPARSED DATA:\n")
+
+    println
+    //println(C(0).foreach(x => print(x + "$")))
+    println
+    //println(C(2).foreach(x => print(x + "$")))
+    println("Size of D: " + D.length + " " + D(0).length)
 
     //println("\n" + unitedS.replace("https:" + fowardL + backL + fowardL + backL, ""))
-    if(A.size > 2) {
-        for(j <- 0 until C.length) {
-            if(C(j).length != 1) { // The empty data strings removed
+    if(A.size > 2) {    
+        println("C Length: " + C.length);
+        for(j <- 0 until C.length) {   
+        println("C(j) Length: " + C(j).length) 
+            if(C(j).length != 0) { // The empty data strings removed
                 for(i <- 0 until C(j).length) {
+                    //println("First")
+                    println(C(j)(i) + " " + C(j)(i).length)
                     if(C(j)(i).count(c => c == ':') > 1) {
                         C(j)(i) = C(j)(i).replace(":", "#");
                         C(j)(i) = C(j)(i).replaceFirst("#", ":");
                     }
-                        
+                    //println("Second")
                     D(0)(i) = C(j)(i).split(":").head;
+                    //println("In between")
                     try {
+                        //println("Third")
                         D(1)(i) = (C(j)(i).split(":"))(1)
                     }
                     catch {
                         case _: Throwable => D(1)(i) = "null"
                     }
                 }
+                //println("fourth")
                 for(j <- 0 until D(1).length)
                     D(1)(j) = D(1)(j).replace("#",":")
                 

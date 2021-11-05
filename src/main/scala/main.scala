@@ -1,4 +1,5 @@
 import login.Login;
+import login.menu;
 
 import scala.io.Source;
 import java.io.File;
@@ -16,9 +17,8 @@ object Main extends App {
 
     do {
       if(userInfo._2 == 1 || userInfo._2 == 2) {
-        println("To change username/password (1)");
-        println("To print user's info (6)")
-        println("To exit (10)")
+        
+        menu.menuOptions;
         var options = scala.io.StdIn.readInt();
         if(options == 1)
           Login.updateLogin(userInfo._1);
@@ -37,11 +37,3 @@ object Main extends App {
     println("Good bye!\n")
   }
 }
-
-      /* 
-      val apiKey = 40130162;
-      val url = "https://www.thesportsdb.com/api/v1/json/40130162/lookupeventstats.php?id=1032723";
-      val result = scala.io.Source.fromURL(url).getLines.toList.map(x => Document(x));
-      val out = result(0).get("eventstats").get.asArray().getValues().get(0).asDocument.get("strEvent").asString.getValue;
-
-      println(out); */
