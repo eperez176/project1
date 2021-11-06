@@ -9,7 +9,7 @@ import scala.util.Try
 
 import scala.collection.mutable.Stack
 
-object test extends App {
+object test {
     println("testing...");
     val apiKey = 40130162;
     val url = "https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=4346";

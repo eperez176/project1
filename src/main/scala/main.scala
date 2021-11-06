@@ -10,24 +10,31 @@ import scala.io.StdIn.readLine;
 object Main extends App {
   var exit = false;
   var exitMain = false;
+  var options = 0;
 
   while (!exitMain) {
-
+    exit = false;
     var userInfo = Login.login(); // Contains user's ID and admin status
 
     do {
       if(userInfo._2 == 1 || userInfo._2 == 2) {
         
-        menu.menuOptions;
-        var options = scala.io.StdIn.readInt();
+        options = menu.menuOptions(userInfo._2); // Checks for admin
         if(options == 1)
           Login.updateLogin(userInfo._1);
+        else if(options == 9) {
+          exit = true;
+        }
         else if(options == 10){
           exit = true;
           exitMain = true;
         }
         else if(options == 6)
           Login.userInfo(userInfo._1);
+        else if(options == 7)
+          Login.adminDelete
+        else if(options == 8) // Print of user's ID and username
+          Login.adminUserList;
         
       }
       else {

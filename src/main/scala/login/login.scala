@@ -42,7 +42,7 @@ object Login {
             stmt.execute("create table " + tableName + " (key int, username string, password string, admin boolean) row format delimited  fields terminated by ','");
 
             val filepath = "/tmp/users.csv";
-            var sql = "load local data inpath '" + filepath + "' into table " + tableName;
+            var sql = "load data local inpath '" + filepath + "' into table " + tableName;
             System.out.println("Running: " + sql);
             stmt.execute(sql);
 
@@ -329,7 +329,6 @@ object Login {
             Class.forName(driverName);
             con = DriverManager.getConnection(conStr, "", "");
             val stmt = con.createStatement();
-            println(currentID)
             var sql = "select * from " + tableName;
             var res = stmt.executeQuery(sql);
             while(res.next()) {
@@ -361,4 +360,118 @@ object Login {
         }
     }
 
+    def adminDelete(): Unit = {
+        var exit = false;
+        var delUser = 0;
+        var con: java.sql.Connection = null;
+        val tableName = "Users";
+
+        var newUsername = "";
+        var newPass = "";
+
+        var driverName = "org.apache.hive.jdbc.HiveDriver"
+        val conStr = "jdbc:hive2://sandbox-hdp.hortonworks.com:10000/default";
+        val filepath = "/tmp/users.csv";
+        println("\nDelete which user? (Enter ID) (Enter '-1' to exit)");
+
+        do {
+            try {
+                Class.forName(driverName);
+                con = DriverManager.getConnection(conStr, "", "");
+                val stmt = con.createStatement();
+                var sql = "select * from " + tableName;
+                var res = stmt.executeQuery(sql);
+                delUser = scala.io.StdIn.readInt;
+
+                var validUser = false;
+
+                while(res.next()) {
+                    if(res.getInt(1) == delUser && !res.getBoolean(4))
+                        validUser = true;
+                }
+
+                if(validUser) { // Delete the user from the external table and update internal table
+                    val user_file = new File("/tmp/users.csv");
+                    val user_source = Source.fromFile(user_file);
+                    val oldFile = user_source.mkString.split("\n");
+                    var old_writer = new FileWriter(user_file, false);
+
+                    var lineSplit = "";
+                    old_writer.close();
+                    old_writer = new FileWriter(user_file, true);
+                    try {
+                        for (i <- 0 until oldFile.length) {
+                            lineSplit = oldFile(i).split(",").head;
+                            var newL = oldFile(i) + "\n";
+                            if(lineSplit.toInt != delUser) // If given incorrect username
+                                old_writer.write(newL);
+                        }
+                    }
+                    catch {
+                        case ex : Throwable => ex.printStackTrace();
+                    }
+                    finally { // Close everything
+                        user_source.close();
+                        old_writer.close();
+                    }
+                    println("\nUpdating...")
+                    stmt.execute("drop table IF EXISTS " + tableName);
+                    stmt.execute("create table " + tableName + " (key int, username string, password string, admin boolean) row format delimited  fields terminated by ','");
+                    sql = "load data local inpath '" + filepath + "' into table " + tableName;
+                    stmt.execute(sql);
+                    println("Done. Exiting...\n")
+                    exit = true;
+
+                }
+                else if(delUser == -1)
+                    exit = true;
+                else
+                    println("User doesn't exist or user is admin.")
+
+
+            }
+            catch {
+                case _: Throwable => println("Invalid entry")
+            }
+            finally {
+                if(con != null)
+                    con.close()
+            }
+
+        } while (!exit)
+    }
+
+    def adminUserList: Unit = {
+        var con: java.sql.Connection = null;
+        val tableName = "Users";
+
+        var driverName = "org.apache.hive.jdbc.HiveDriver"
+        val conStr = "jdbc:hive2://sandbox-hdp.hortonworks.com:10000/default";
+        try {
+            Class.forName(driverName);
+            con = DriverManager.getConnection(conStr, "", "");
+            val stmt = con.createStatement();
+            var sql = "select * from " + tableName;
+            var res = stmt.executeQuery(sql);
+            println("List of Users")
+            while(res.next()) {
+                println("User ID: " + res.getString(1) + ", Username: " + res.getString(2));
+                println;
+            }
+        }
+        catch {
+            case ex: Throwable => ex.printStackTrace();
+        }
+        finally {
+            try { // Closing client
+                    if (con != null)
+                        con.close();
+                } catch {
+                    case ex : Throwable =>  {
+                        ex.printStackTrace();
+                        throw new Exception(s"${ex.getMessage}")
+                    }
+                }
+        }
+    }
 }
