@@ -36,14 +36,11 @@ object Login {
 
             // Re-Load the db from users.csv
             val tableName = "Users";
-            println(s"Dropping table $tableName..")
             stmt.execute("drop table IF EXISTS " + tableName);
-            println(s"Creating table $tableName..")
             stmt.execute("create table " + tableName + " (key int, username string, password string, admin boolean) row format delimited  fields terminated by ','");
 
             val filepath = "/tmp/users.csv";
             var sql = "load data local inpath '" + filepath + "' into table " + tableName;
-            System.out.println("Running: " + sql);
             stmt.execute(sql);
 
             sql = "select * from " + tableName;
@@ -453,10 +450,9 @@ object Login {
             val stmt = con.createStatement();
             var sql = "select * from " + tableName;
             var res = stmt.executeQuery(sql);
-            println("List of Users")
+            println("\nList of Users")
             while(res.next()) {
                 println("User ID: " + res.getString(1) + ", Username: " + res.getString(2));
-                println;
             }
         }
         catch {

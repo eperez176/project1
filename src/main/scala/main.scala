@@ -1,5 +1,6 @@
 import login.Login;
 import login.menu;
+import parser.Parser;
 
 import scala.io.Source;
 import java.io.File;
@@ -22,6 +23,15 @@ object Main extends App {
         options = menu.menuOptions(userInfo._2); // Checks for admin
         if(options == 1)
           Login.updateLogin(userInfo._1);
+        else if (options == 2) {
+          menu.printList
+        }
+        else if(options == 3)
+          menu.search
+        else if(options == 4)
+          menu.printEvents
+        else if(options == 5)
+          menu.analysis
         else if(options == 9) {
           exit = true;
         }
