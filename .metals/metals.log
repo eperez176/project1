@@ -52041,3 +52041,73 @@ Exception in thread "pool-1-thread-2099" java.lang.OutOfMemoryError: unable to c
 [0m2021.11.08 06:49:02 WARN  Could not find java sources in None. Java symbols will not be available.[0m
 [0m2021.11.08 06:49:03 INFO  compiling root (2 scala sources)[0m
 [0m2021.11.08 06:49:06 INFO  time: indexed workspace in 15s[0m
+[0m2021.11.08 06:49:06 INFO  time: indexed workspace in 15s[0m
+[0m2021.11.08 06:49:06 WARN  no build target for: C:\Users\eperez176\revature\Oct2021ScalaBatch\scalahive\src\main\scala\example\HiveClient.scala[0m
+[0m2021.11.08 06:49:06 WARN  no build target for: C:\Users\eperez176\revature\project0\src\main\scala\login\login.scala[0m
+[0m2021.11.08 06:49:06 WARN  no build target for: C:\Users\eperez176\revature\project0\src\main\scala\login\newLogin.scala[0m
+[0m2021.11.08 06:49:06 WARN  no build target for: C:\Users\eperez176\revature\Oct2021ScalaBatch\scalahive\src\main\scala\example\HiveClient.scala[0m
+[0m2021.11.08 06:49:06 WARN  no build target for: C:\Users\eperez176\revature\project0\src\main\scala\login\login.scala[0m
+[0m2021.11.08 06:49:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.08 06:49:06 WARN  no build target for: C:\Users\eperez176\revature\project0\src\main\scala\login\newLogin.scala[0m
+[0m2021.11.08 06:49:06 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.08 06:49:07 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.8' (since 16.12s)[0m
+[0m2021.11.08 06:49:07 INFO  compiling root (2 scala sources)[0m
+[0m2021.11.09 16:24:26 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\eperez176\revature\project1' for client Visual Studio Code 1.62.0.[0m
+[0m2021.11.09 16:24:29 INFO  time: initialize in 3.13s[0m
+[0m2021.11.09 16:24:35 INFO  Attempting to connect to the build server...[0m
+[0m2021.11.09 16:24:35 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 33736'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:33736...
+The server is listening for incoming connections at tcp://127.0.0.1:33736...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.09 16:24:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\eperez176\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.11.09 16:24:40 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 12597'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12597...
+The server is listening for incoming connections at tcp://127.0.0.1:12597...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.09 16:24:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\eperez176\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.11.09 16:24:57 INFO  time: Connected to build server in 22s[0m
+[0m2021.11.09 16:24:57 INFO  Connected to Build server: Bloop v1.4.10-8-8d1cbc4f[0m
+[0m2021.11.09 16:24:58 INFO  time: Imported build in 0.55s[0m
+[0m2021.11.09 16:25:09 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.11.09 16:25:14 INFO  time: indexed workspace in 15s[0m
+[0m2021.11.09 16:25:14 WARN  unsupported Scala 2.11.8[0m
+[0m2021.11.09 16:25:14 INFO  compiling root (5 scala sources)[0m
+[0m2021.11.09 16:26:41 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.11.09 16:26:46 INFO  shutting down Metals[0m
+[0m2021.11.09 16:26:50 INFO  Shut down connection with build server.[0m
+[0m2021.11.09 16:26:50 No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+INFO  Shut down connection with build server.[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.nio.channels.Channels$ReadableByteChannelImpl.read(Unknown Source)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:156)
+[0m2021.11.09 16:26:50 ERROR Unexpected error initializing server
+scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: CompileResult.  Boxed InterruptedException
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:252)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:244)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+[0m
+No more data in the client stdin, exiting...

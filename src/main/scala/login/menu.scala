@@ -105,32 +105,80 @@ object menu {
         var opt = scala.io.StdIn.readInt();
         if(opt> 0 && opt < 7) {
             if(opt == 1) {
+                tableName = "Scores";
+                filepath = "/tmp/leagues.csv";
+                stmt.execute("drop table IF EXISTS " + tableName);
+                stmt.execute("create table " + tableName + " (key int, score int) row format delimited  fields terminated by ','");
                 println("Enter Team ID: ")
                 var id = scala.io.StdIn.readLine();
+                val user_file = new File(filepath);
+                val user_writer = new FileWriter(user_file);
                 input = "https://www.thesportsdb.com/api/v1/json/40130162/eventslast.php?id=" + id;
                 output = Parser.csvParser(input);
                 var tmp = 0;
                 var result = output.split("\n")
+                var out = "";
+                var count = 0;
                 for(line <- result) {
                     var S = line.split(",");
+                    count = count + 1;
+                    out = out + count.toString + "," + S(13) + "\n";
                     tmp = tmp + S(13).toInt
                 }
-                println("Average for the team: " + (tmp/5).toString);
+                // move data to a file then to hive
+                user_writer.write(out);
+                user_writer.close();
+                println("Creating table...")
+                sql = "load data local inpath '" + filepath + "' into table " + tableName;
+                stmt.execute(sql);
+
+                sql = "select avg(score) from " + tableName;
+                var res = stmt.executeQuery(sql)
+                while(res.next())
+                    println("Average Score: " + res.getString(1))
+                con.close();
             }
             else if(opt == 2) {
+                tableName = "AwayScores";
+                filepath = "/tmp/leagues.csv";
+                stmt.execute("drop table IF EXISTS " + tableName);
+                stmt.execute("create table " + tableName + " (key int, score int) row format delimited  fields terminated by ','");
+                val user_file = new File(filepath);
+                val user_writer = new FileWriter(user_file);
                 println("Enter Team ID: ")
                 var id = scala.io.StdIn.readLine();
                 input = "https://www.thesportsdb.com/api/v1/json/40130162/eventslast.php?id=" + id;
                 output = Parser.csvParser(input);
                 var tmp = 0;
                 var result = output.split("\n")
+                var out = "";
+                var count = 0;
                 for(line <- result) {
                     var S = line.split(",");
+                    count = count + 1;
+                    out = out + count.toString + "," + S(15) + "\n";
                     tmp = tmp + S(15).toInt
                 }
-                println("Average for score against the team: " + (tmp/5).toString);
+                // move data to a file then to hive
+                user_writer.write(out);
+                user_writer.close();
+                println("Creating table...")
+                sql = "load data local inpath '" + filepath + "' into table " + tableName;
+                stmt.execute(sql);
+
+                sql = "select avg(score) from " + tableName;
+                var res = stmt.executeQuery(sql)
+                while(res.next())
+                    println("Average Score For Away: " + res.getString(1))
+                con.close();
             }
-            else if(opt == 3) { // To do later
+            else if(opt == 3) {
+                tableName = "Ages";
+                filepath = "/tmp/leagues.csv";
+                stmt.execute("drop table IF EXISTS " + tableName);
+                stmt.execute("create table " + tableName + " (key int, age int) row format delimited  fields terminated by ','");
+                val user_file = new File(filepath);
+                val user_writer = new FileWriter(user_file);
                 println("Enter Team ID: ")
                 var id = scala.io.StdIn.readLine();
                 input = "https://www.thesportsdb.com/api/v1/json/40130162/lookup_all_players.php?id=" + id;
@@ -138,7 +186,8 @@ object menu {
                 var tmp = 0;
                 var num = 0;
                 var count = 0;
-                var result = output.split("\n")
+                var result = output.split("\n");
+                var out = "";
                 for(line <- result) {
                     var S = line.split(",");
                     var c = S(15)(0);
@@ -152,12 +201,30 @@ object menu {
                         var s_tmp = S(15)
                         num = (s_tmp(0).toString + s_tmp(1).toString + s_tmp(2).toString + s_tmp(3).toString).toInt;
                         num = 2021-num;
+                        out = out + count.toString + "," + num.toString + "\n";
                     }
                     tmp = tmp + num
                 }
-                println("Average Known Contract Length of The Team: " + (tmp/count).toString);
+                user_writer.write(out);
+                user_writer.close();
+                println("Creating table...")
+                sql = "load data local inpath '" + filepath + "' into table " + tableName;
+                stmt.execute(sql);
+
+                sql = "select avg(age) from " + tableName;
+                var res = stmt.executeQuery(sql)
+                while(res.next())
+                    println("Average Contract: " + res.getString(1))
+                con.close();
+
             }
             else if(opt == 4) {
+                tableName = "maxPay";
+                filepath = "/tmp/leagues.csv";
+                stmt.execute("drop table IF EXISTS " + tableName);
+                stmt.execute("create table " + tableName + " (key int, pay double, name string) row format delimited  fields terminated by ','");
+                val user_file = new File(filepath);
+                val user_writer = new FileWriter(user_file);
                 println("Enter Team ID: ")
                 var id = scala.io.StdIn.readLine();
                 input = "https://www.thesportsdb.com/api/v1/json/40130162/lookup_all_players.php?id=" + id;
@@ -170,6 +237,7 @@ object menu {
                 var index = -1;
                 var name = "";
                 var ss = ""
+                var out = "";
                 for(line <- result) {
                     var S = line.split(",");
                     var c = (S(16))(0)
@@ -184,18 +252,39 @@ object menu {
                             tmp = s_tmp(0)
                         ss = tmp.toString + s_tmp(1).toString + s_tmp(2).toString
                         num = ss.toFloat
-                        if(num > max) {
-                            max = num;
-                            name = S(8)
-                        }
+                        out = out + count.toString +"," + ss + "," + S(8) +"\n";
 
                     }
                     else
                         num = 0;
                 }
-                println("Highest Payed Player in The Team: " + name + " with wage of " + (max).toString);   
-            }
+                user_writer.write(out);
+                user_writer.close();
+                println("Creating table...")
+                sql = "load data local inpath '" + filepath + "' into table " + tableName;
+                stmt.execute(sql);
+
+                var pay = "";
+                sql = "select max(pay) from " + tableName;
+                var res = stmt.executeQuery(sql)
+                while(res.next())
+                    pay = res.getString(1);
+                sql = "select * from " + tableName;
+                res = stmt.executeQuery(sql);
+                while(res.next()) {
+                    if(res.getString(2) == pay)
+                        name = res.getString(3)
+                }
+                con.close();
+                println("Highest Paid is: " + name + " with " + pay);
+                }
             else if(opt == 5) {
+                tableName = "AvgAge";
+                filepath = "/tmp/leagues.csv";
+                stmt.execute("drop table IF EXISTS " + tableName);
+                stmt.execute("create table " + tableName + " (key int, age int) row format delimited  fields terminated by ','");
+                val user_file = new File(filepath);
+                val user_writer = new FileWriter(user_file);
                 println("Enter Team ID: ")
                 var id = scala.io.StdIn.readLine();
                 input = "https://www.thesportsdb.com/api/v1/json/40130162/lookup_all_players.php?id=" + id;
@@ -205,6 +294,7 @@ object menu {
                 var max = -1;
                 var result = output.split("\n")
                 var count = 0;
+                var out = "";
                 for(line <- result) {
                     var S = line.split(",");
                     if(S(13) == null)
@@ -214,12 +304,27 @@ object menu {
                         var s_tmp = S(13)
                         num = (s_tmp(0).toString + s_tmp(1).toString + s_tmp(2).toString + s_tmp(3).toString).toInt;
                         num = 2021-num;
+                        out = count.toString + "," + num.toString + "\n";
                     }
-                    tmp = tmp + num
                 }
-                println("Average Age Of Players in The Team: " + (tmp/count).toString); 
+                user_writer.write(out);
+                user_writer.close();
+                println("Creating table...")
+                sql = "load data local inpath '" + filepath + "' into table " + tableName;
+                stmt.execute(sql);
+                sql = "select avg(age) from " + tableName;
+                var res = stmt.executeQuery(sql)
+                while(res.next())
+                    println("Average Age: " + res.getString(1))
+                con.close();
             }
             else if(opt == 6) {
+                tableName = "AvgIncome";
+                filepath = "/tmp/leagues.csv";
+                stmt.execute("drop table IF EXISTS " + tableName);
+                stmt.execute("create table " + tableName + " (key int, pay double) row format delimited  fields terminated by ','");
+                val user_file = new File(filepath);
+                val user_writer = new FileWriter(user_file);
                 println("Enter Team ID: ")
                 var id = scala.io.StdIn.readLine();
                 input = "https://www.thesportsdb.com/api/v1/json/40130162/lookup_all_players.php?id=" + id;
@@ -231,6 +336,7 @@ object menu {
                 var count = 0;
                 var ss = "";
                 var tmpi = '0';
+                var out = "";
                 for(line <- result) {
                     var S = line.split(",");
                     var c = (S(16))(0)
@@ -245,18 +351,29 @@ object menu {
                             tmpi = s_tmp(0)
                         ss = tmpi.toString + s_tmp(1).toString + s_tmp(2).toString
                         num = ss.toFloat
+                        out = count.toString + "," + ss + "\n"
 
                     }
                     tmp = tmp + num
                 }
-                println("Average Known Contract Income in The Team: " + (tmp/count).toString);   
+                user_writer.write(out);
+                user_writer.close();
+                println("Creating table...")
+                sql = "load data local inpath '" + filepath + "' into table " + tableName;
+                stmt.execute(sql);
+
+                sql = "select avg(pay) from " + tableName;
+                var res = stmt.executeQuery(sql)
+                while(res.next())
+                    println("Average Contract Pay: " + res.getString(1))
+                con.close();
             }
             
         }
 
     }
     catch {
-        case _: Throwable => println("Invalid. Going back to the Main menu...\n")
+        case ex: Throwable => ex.printStackTrace();
     }
   }
 
