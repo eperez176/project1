@@ -10,5 +10,6 @@ A Scala console application that is retrieving data using Hive or MapReduce. Bui
 - Retrives historical data from past sport events
 - Analysis of popular sports (soccer)
 ## Getting Started
-
+To clone the repo:
+git clone https://github.com/eperez176/project1.git
 ## Usage
