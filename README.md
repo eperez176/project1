@@ -9,6 +9,7 @@ A Scala console application that is retrieving data using Hive or MapReduce. Bui
 ## Features
 - Login system with unique username
 - Division of admin and basic privileges
+- Ability to change username and/or password
 - Cleaning of input (since the API is open, crowd-sourced database)
 - Retrives historical data from past sport events
 - Analysis of popular sports (soccer, basketball, football)
