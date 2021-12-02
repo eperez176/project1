@@ -7,6 +7,7 @@ A Scala console application that is retrieving data using Hive or MapReduce. Bui
 - Hadoop
 - HDFS
 ## Features
+- Login system with unique username
 - Retrives historical data from past sport events
 - Analysis of popular sports (soccer, basketball, football)
 ## Getting Started
